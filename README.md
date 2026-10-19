@@ -17,7 +17,7 @@ you're done. Then move on to the next one.
    <https://github.com/apps/qretools/installations/new>. Choose your account, then
    "Only select repositories", then your copy. Without it you can read the lessons, but
    not save.
-3. **Open it in QREtools.** Go to <https://bank.qretools.com>, enter your copy as
+3. **Open it in QREtools.** Go to <https://qretools.com>, enter your copy as
    `owner/name`, and sign in with GitHub.
 4. **Open lesson 1.** In the tree on the left, open Questions → `lesson01_intent` →
    `consent`.
