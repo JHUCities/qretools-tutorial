@@ -10,10 +10,10 @@
 #
 # The circle beside each file in the tree says how it
 # stands: a green tick is complete, a dashed circle has
-# something to fill in. Other files with circles,
-# Instruments at the top included, are later lessons;
-# you'll get to them. A red circle there means it asks a
-# question you haven't finished yet.
+# something to fill in. Other files with circles, the
+# Instruments included, are later lessons; you'll get to
+# them. A red circle there means it asks a question you
+# haven't finished yet.
 
 # Its name: how data and other files refer to it.
 # Lowercase letters, digits and underscores, starting
