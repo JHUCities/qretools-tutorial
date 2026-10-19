@@ -1,10 +1,13 @@
-# ── Lesson 23 of 33: stop ──────────────────────────────────────────────────────
+# ── Lesson 23 of 33: stop ──
 #
-# What this shows: stop ends the survey for those it isn't for, with something to
-# say to them. Its condition compares an answer with one of its codes, in quotes.
+# What this shows: stop ends the survey for those it
+# isn't for, with something to say to them. Its
+# condition compares an answer with one of its codes, in
+# quotes.
 #
 # To do:
-#   1. After  stop:  write  bank.consent = "2"  (consent's code for No).
+#   1. After  stop:  write  bank.consent = "2"
+#      (consent's code for No).
 #
 # Done when: this instrument has a green tick.
 name: lesson23_stop

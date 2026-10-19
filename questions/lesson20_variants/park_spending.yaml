@@ -1,10 +1,13 @@
-# ── Lesson 20 of 33: duplicates and variants ───────────────────────────────────
+# ── Lesson 20 of 33: duplicates and variants ──
 #
-# What this shows: QREtools watches the whole bank for repeats. This question and
-# park_spending_reversed have the same text, so both warn. Here that's on
-# purpose: the two halves of an experiment on the order of the options.
+# What this shows: QREtools watches the whole bank for
+# repeats. This question and park_spending_reversed have
+# the same text, so both warn. Here that's on purpose:
+# the two halves of an experiment on the order of the
+# options.
 #
-# To do: open park_spending_reversed beside it, and follow its comment.
+# To do: open park_spending_reversed beside it, and
+# follow its comment.
 #
 # Done when: both have green ticks.
 name: park_spending

@@ -1,11 +1,14 @@
-# ── Lesson 27 of 33: filling a question's text ─────────────────────────────────
+# ── Lesson 27 of 33: filling a question's text ──
 #
-# What this shows: lesson 15's park_comments has a fill, {{rating}}. Here the
-# instrument says what fills it: the label of the satisfaction answer. label(…)
-# gives an answer's words ("Very satisfied") rather than its code ("1").
+# What this shows: lesson 15's park_comments has a fill,
+# {{rating}}. Here the instrument says what fills it:
+# the label of the satisfaction answer. label(…) gives
+# an answer's words ("Very satisfied") rather than its
+# code ("1").
 #
 # To do:
-#   1. After  rating:  write  label(bank.park_satisfaction)
+#   1. After  rating:  write
+#      label(bank.park_satisfaction)
 #
 # Done when: this instrument has a green tick.
 name: lesson27_fill
