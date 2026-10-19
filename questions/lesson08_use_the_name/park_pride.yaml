@@ -1,0 +1,28 @@
+# ── Lesson 8 of 33: a warning and a quick fix ──
+#
+# What this shows: a warning (orange) is stronger advice
+# than a note. This list is exactly the shared scale
+# agreement4, written out again. The warning suggests
+# using the name instead, and offers to do it for you: a
+# quick fix.
+#
+# To do: apply the fix "Use agreement4", in any of three
+# ways:
+#   - under the warning in the Findings list, click "Use
+#     agreement4";
+#   - or hover over the underlined list here, and click
+#     it in the tooltip;
+#   - or put your cursor on the list and press Cmd-.
+#     (Ctrl-. elsewhere).
+#
+# Done when: park_pride has a green tick. Cmd-Z undoes a
+# fix, if you want to try again.
+name: park_pride
+title: Pride in the parks
+text: I'm proud of the parks in my neighborhood.
+intent: Measures residents' attachment to local parks, as a sign of how they value them.
+responses:
+  "1": Strongly agree
+  "2": Somewhat agree
+  "3": Somewhat disagree
+  "4": Strongly disagree
