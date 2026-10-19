@@ -1,7 +1,8 @@
-# ── Lesson 30 of 33: a roster that asks for more ───────────────────────────────
+# ── Lesson 30 of 33: a roster that asks for more ──
 #
-# What this shows: a roster can go on while the answer to "another?" is Yes, up to
-# a max. each then goes over its rounds, and can show each round's answers.
+# What this shows: a roster can go on while the answer
+# to "another?" is Yes, up to a max. each then goes over
+# its rounds, and can show each round's answers.
 #
 # To do:
 #   1. After  more:  write  bank.another_visit = "1"

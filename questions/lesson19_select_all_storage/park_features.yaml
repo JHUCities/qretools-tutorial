@@ -1,6 +1,7 @@
-# Lesson 19 is in Settings → select_all.yaml. This question is given complete: once
-# you've done lesson 19, look at its Codebook and DDI previews to see one stored
-# value per option.
+# Lesson 19 is in Settings → select_all.yaml. This
+# question is given complete: once you've done lesson
+# 19, look at its Codebook and DDI previews to see one
+# stored value per option.
 name: park_features
 title: Park features used
 text: Which of these park features have you used this year?

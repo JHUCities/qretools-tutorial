@@ -1,14 +1,17 @@
-# ── Lesson 31 of 33: checks ────────────────────────────────────────────────────
+# ── Lesson 31 of 33: checks ──
 #
-# What this shows: a check tests an answer as it's given. Its severity says what
-# happens when it fails:
-#   info      a remark, the respondent can go on;
-#   warning   asks the respondent to look again, but they can go on;
+# What this shows: a check tests an answer as it's
+# given. Its severity says what happens when it fails:
+#   info      a remark;
+#   warning   asks them to look again;
 #   blocking  they can't go on until it holds.
-# isnull(x) is true when x has no answer; between(x, a, b) when a ≤ x ≤ b.
+# Two tests are used below: isnull(x), true when x has
+# no answer, and between(x, 0, 30), true when x is from
+# 0 to 30.
 #
 # To do:
-#   1. After the empty  ensure:  write  bank.household_size < 10
+#   1. After the empty  ensure:  write
+#      bank.household_size < 10
 #
 # Done when: this instrument has a green tick.
 name: lesson31_checks

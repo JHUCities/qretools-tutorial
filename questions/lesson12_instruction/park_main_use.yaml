@@ -1,7 +1,8 @@
-# ── Lesson 12 of 33: an instruction ────────────────────────────────────────────
+# ── Lesson 12 of 33: an instruction ──
 #
-# What this shows: an instruction tells the respondent how to answer. Instructions
-# are shared too: look under Shared → Instructions.
+# What this shows: an instruction tells the respondent
+# how to answer. Instructions are shared too: look under
+# Shared → Instructions.
 #
 # To do:
 #   1. After  instruction:  write  select_one .

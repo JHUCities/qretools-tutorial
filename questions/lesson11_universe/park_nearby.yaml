@@ -1,10 +1,12 @@
-# ── Lesson 11 of 33: the universe ──────────────────────────────────────────────
+# ── Lesson 11 of 33: the universe ──
 #
-# What this shows: a question's universe says whom it's for. Like scales, a
-# universe can be shared and named. Look under Shared → Universes.
+# What this shows: a question's universe says whom it's
+# for. Like scales, a universe can be shared and named.
+# Look under Shared → Universes.
 #
 # To do:
-#   1. After  universe:  write  all_respondents  (or choose it with Cmd-I).
+#   1. After  universe:  write  all_respondents  (or
+#      choose it with Cmd-I).
 #
 # Done when: park_nearby has a green tick.
 name: park_nearby
