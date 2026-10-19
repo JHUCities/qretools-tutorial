@@ -14,3 +14,4 @@ name: household_size
 title: People in the household
 text: How many people live in your household, including you?
 intent: Counts household members, so later questions can be asked about each of them in turn.
+number: { min: 1, max: 20 }

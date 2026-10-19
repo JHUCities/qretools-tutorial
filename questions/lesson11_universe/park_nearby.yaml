@@ -11,5 +11,5 @@ name: park_nearby
 title: A park within walking distance
 text: Is there a park within a ten-minute walk of your home?
 intent: Measures access to parks, to see whether distance explains how often residents visit.
-universe:
+universe: all_respondents
 responses: yes_no

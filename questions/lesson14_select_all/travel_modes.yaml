@@ -34,3 +34,6 @@ responses:
   "4":
     label: By car
     title: Car
+  "5":
+    label: None of these
+    title: None

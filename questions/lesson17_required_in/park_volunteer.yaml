@@ -13,4 +13,5 @@ name: park_volunteer
 title: Volunteering in parks
 text: Would you volunteer a few hours a year to help look after a park here?
 intent: Gauges residents' willingness to help maintain local parks, for planning volunteer days.
+universe: all_respondents
 responses: yes_no

@@ -16,4 +16,4 @@ responses:
   "2": Play a sport
   "3": Relax or read
   "4": Bring children to play
-instruction:
+instruction: select_one

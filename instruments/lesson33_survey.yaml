@@ -24,13 +24,13 @@ uses:
 flow:
   - say: Thank you for taking part in this survey about the parks in your neighborhood.
   - ask: bank.consent
-  - stop:
+  - stop: bank.consent = "2"
     say: Thank you for your time.
   - ask: bank.park_nearby
   - ask: bank.park_visited
   - if: bank.park_visited = "1"
     then:
-      - ask:
+      - ask: bank.park_safety
         universe: bank.park_visitors
       - ask: bank.park_visit_days
         universe: bank.park_visitors

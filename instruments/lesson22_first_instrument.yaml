@@ -24,4 +24,4 @@ uses:
 flow:
   - say: Thank you for taking part in this survey about the parks in your neighborhood.
   - ask: bank.consent
-  - ask:
+  - ask: bank.park_visited

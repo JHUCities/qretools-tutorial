@@ -14,6 +14,6 @@
 # Done when: both files have green ticks. Save both.
 name: toilets_kept
 title: Park toilets well kept
-text: Are the toilets and playgrounds in this neighborhood's parks well kept?
+text: Are the toilets in this neighborhood's parks well kept?
 intent: Measures whether residents find the parks' toilets well maintained, one facility at a time.
 responses: yes_no

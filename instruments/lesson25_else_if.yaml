@@ -19,7 +19,7 @@ flow:
     then:
       - say: Thank you. You're one of the parks' regular visitors.
     else:
-      if:
+      if: bank.park_visit_frequency in {"3", "4"}
       then:
         - say: Thank you. You visit now and then.
       else:

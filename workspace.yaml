@@ -6,11 +6,11 @@ agency: org.example
 
 # Lesson 16: fields every question must have, beyond name, text and intent.
 # Remove the # at the start of the next two lines (Cmd-/ toggles a comment).
-#required:
-#  - title
+required:
+  - title
 
 # Lesson 17: fields one folder's questions must also have. Remove the # at the
 # start of the next three lines.
-#required_in:
-#  questions/lesson17_required_in:
-#    - universe
+required_in:
+  questions/lesson17_required_in:
+    - universe

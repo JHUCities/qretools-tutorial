@@ -12,6 +12,6 @@ uses:
   bank: ../
 flow:
   - ask: bank.consent
-  - stop:
+  - stop: bank.consent = "2"
     say: Thank you for your time.
   - ask: bank.park_visited

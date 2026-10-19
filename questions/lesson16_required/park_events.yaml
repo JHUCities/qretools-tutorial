@@ -13,6 +13,7 @@
 # Done when: park_events has a green tick. Save it, and save workspace.yaml too, or
 # the setting stays only in this browser tab.
 name: park_events
+title: Park events attended
 text: Have you been to an event in a park here this year?
 intent: Measures participation in organized park events, such as concerts or clean-ups.
 responses: yes_no

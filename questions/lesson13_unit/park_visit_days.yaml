@@ -15,4 +15,4 @@ intent: Estimates how many days a month residents use parks, a finer measure tha
 number:
   min: 0
   max: 30
-  unit: day
+  unit: days

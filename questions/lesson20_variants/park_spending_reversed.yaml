@@ -12,3 +12,5 @@ title: More spending on parks (reversed)
 text: The city should spend more on parks, even if other services get less.
 intent: Measures support for spending on parks traded against other services, its options shown in reverse.
 responses: agreement4_reversed
+variant_of:
+  park_spending: the same question with its options in reverse order

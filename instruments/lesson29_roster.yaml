@@ -14,7 +14,7 @@ uses:
 flow:
   - ask: bank.household_size
   - roster: people
-    count:
+    count: bank.household_size
     flow:
       - say: The next question is about person {{index}}.
       - ask: bank.member_age

@@ -16,4 +16,5 @@ text: How clean are the parks in this neighborhood?
 intent: Measures how residents judge the upkeep of local parks, a likely reason to visit or stay away.
 responses:
   "1": Very clean
-  "2":
+  "2": Fairly clean
+  "3": Not clean

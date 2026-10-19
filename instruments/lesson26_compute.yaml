@@ -16,7 +16,7 @@ flow:
   - ask: bank.park_nearby
   - ask: bank.park_visit_days
   - compute: frequent_nearby
-    value:
+    value: bank.park_visit_days >= 8 and bank.park_nearby = "1"
   - if: frequent_nearby
     then:
       - say: You use the park near you often.

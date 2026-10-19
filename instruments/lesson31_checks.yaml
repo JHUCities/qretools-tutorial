@@ -17,7 +17,7 @@ uses:
 flow:
   - ask: bank.household_size
     checks:
-      - ensure:
+      - ensure: bank.household_size < 10
         severity: warning
         message: That's a large household. Is that right?
   - ask: bank.park_visit_days

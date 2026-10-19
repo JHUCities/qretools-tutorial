@@ -16,3 +16,5 @@ title: Comments on the parks
 text: 'You said you were "{{rating}}" with the parks. What makes you feel that way?'
 intent: Collects the reasons behind each resident's satisfaction rating, in their own words.
 open: { max_length: 500 }
+fills:
+  rating: text

@@ -16,3 +16,4 @@ name: park_wishes
 title: Wishes for the parks
 text: If you could change one thing about the parks here, what would it be?
 intent: Collects residents' own ideas for improving local parks, in their words, to guide planning.
+open: { max_length: 500 }

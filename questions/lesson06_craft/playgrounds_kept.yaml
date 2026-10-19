@@ -4,6 +4,6 @@
 #   1. After  text:  write: Are the playgrounds in this neighborhood's parks well kept?
 name: playgrounds_kept
 title: Park playgrounds well kept
-text:
+text: Are the playgrounds in this neighborhood's parks well kept?
 intent: Measures whether residents find the parks' playgrounds well maintained, one facility at a time.
 responses: yes_no

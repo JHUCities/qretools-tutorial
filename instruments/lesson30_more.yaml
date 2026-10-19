@@ -15,7 +15,7 @@ flow:
   - if: bank.park_visited = "1"
     then:
       - roster: visits
-        more:
+        more: bank.another_visit = "1"
         max: 5
         flow:
           - say: Now about visit {{index}}.

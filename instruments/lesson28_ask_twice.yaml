@@ -16,3 +16,4 @@ flow:
   - ask: bank.park_satisfaction
   - say: Some parks here have new benches and lights this year.
   - ask: bank.park_satisfaction
+    as: park_satisfaction_after

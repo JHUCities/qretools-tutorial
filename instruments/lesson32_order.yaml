@@ -20,7 +20,7 @@ inputs:
     description: Which wave of the survey this is, from the sample file.
 flow:
   - section: About the parks
-    order:
+    order: random
     flow:
       - ask: bank.park_cleanliness
       - ask: bank.park_together

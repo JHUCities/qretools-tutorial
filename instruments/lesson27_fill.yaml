@@ -15,4 +15,4 @@ flow:
   - ask: bank.park_satisfaction
   - ask: bank.park_comments
     fill:
-      rating:
+      rating: label(bank.park_satisfaction)

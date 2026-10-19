@@ -14,6 +14,7 @@ uses:
   bank: ../
 flow:
   - ask: bank.park_visited
-  - if:
+  - if: bank.park_visited = "1"
     then:
       - ask: bank.park_safety
+        universe: bank.park_visitors

@@ -18,4 +18,4 @@ name: park_together
 title: Parks bring people together
 text: The parks here are places where neighbors get to know each other.
 intent: Measures whether residents see local parks as places that build ties between neighbors.
-responses:
+responses: agreement4
