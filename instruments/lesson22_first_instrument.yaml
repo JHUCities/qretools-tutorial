@@ -4,11 +4,11 @@
 # asked, in what order, and of whom. It asks the
 # questions you wrote in Part 1.
 #
-#   uses  names where the questions come from: "bank" is
-#     this workspace (../).
-#   flow  lists the steps, each starting with -. say
-#     shows a statement; ask asks
-#         a question, as bank.<its name>.
+#   - uses names where the questions come from: "bank"
+#     is this workspace (../).
+#   - flow lists the steps, each starting with a dash.
+#   - say shows a statement.
+#   - ask asks a question, written bank.<its name>.
 #
 # The Outline on the right shows the flow; click a step
 # to go to it.
