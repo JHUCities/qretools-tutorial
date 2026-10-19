@@ -4,8 +4,7 @@
 # condition holds.
 #
 # To do:
-#   1. After  if:  write  bank.park_visited = "1"
-#      (Yes).
+#   1. After  if:  write  bank.park_visited = "1" (Yes).
 #   2. The note on park_safety says only visitors reach
 #      it, but nothing says so. Add a line under  - ask:
 #      bank.park_safety , lined up with "ask":
