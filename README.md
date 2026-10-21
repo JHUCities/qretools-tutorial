@@ -87,8 +87,11 @@ to upgrade.
 ## Not in the tutorial
 
 - **A bank in another repository.** An instrument can ask questions from another
-  workspace at a tag (`uses: other: owner/repo@v1`). The
-  [workspace template](https://github.com/JHUCities/qretools-template) explains it.
+  workspace at a release tag (`uses: other: owner/repo@v1`), never a branch. Saving the
+  instrument records the commit the tag pointed to, under `locked:` in `workspace.yaml`,
+  so you're warned if the tag is ever moved. The
+  [workspace template](https://github.com/JHUCities/qretools-template) explains it,
+  including how a question's DDI version is numbered.
 - **`legacy`.** It's a field for migrating an older bank.
 
 What QREtools is: [About QREtools](https://github.com/JHUCities/qretools#readme).
