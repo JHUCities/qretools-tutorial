@@ -31,6 +31,14 @@ the pull-request icon beside your branch name ("Propose changes") opens one.
 [`solutions` branch](https://github.com/JHUCities/qretools-tutorial/tree/solutions) of the original repository. Compare your file
 with the same file there.
 
+## From a terminal
+
+`mise.toml` pins Node and QREtools' npm package, `qretools`, whose command checks a workspace. With
+[mise](https://mise.jdx.dev): `mise install`, then `qretools check .` to list what's to
+fill in or fix, as QREtools shows it: a lesson's findings, the same as in the app.
+Without mise: `npx qretools@<the version in mise.toml> check .`. Change the version there
+to upgrade.
+
 ## The lessons
 
 **Part 1: the question bank** (Questions, in the tree)
@@ -79,8 +87,11 @@ with the same file there.
 ## Not in the tutorial
 
 - **A bank in another repository.** An instrument can ask questions from another
-  workspace at a tag (`uses: other: owner/repo@v1`). The
-  [workspace template](https://github.com/JHUCities/qretools-template) explains it.
+  workspace at a release tag (`uses: other: owner/repo@v1`), never a branch. Saving the
+  instrument records the commit the tag pointed to, under `locked:` in `workspace.yaml`,
+  so you're warned if the tag is ever moved. The
+  [workspace template](https://github.com/JHUCities/qretools-template) explains it,
+  including how a question's DDI version is numbered.
 - **`legacy`.** It's a field for migrating an older bank.
 
 What QREtools is: [About QREtools](https://github.com/JHUCities/qretools#readme).
