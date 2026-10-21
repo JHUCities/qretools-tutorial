@@ -31,6 +31,14 @@ the pull-request icon beside your branch name ("Propose changes") opens one.
 [`solutions` branch](https://github.com/JHUCities/qretools-tutorial/tree/solutions) of the original repository. Compare your file
 with the same file there.
 
+## From a terminal
+
+`mise.toml` pins Node and QREtools' npm package, `qretools`, whose command checks a workspace. With
+[mise](https://mise.jdx.dev): `mise install`, then `qretools check .` to list what's to
+fill in or fix, as QREtools shows it: a lesson's findings, the same as in the app.
+Without mise: `npx qretools@<the version in mise.toml> check .`. Change the version there
+to upgrade.
+
 ## The lessons
 
 **Part 1: the question bank** (Questions, in the tree)
