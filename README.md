@@ -95,3 +95,10 @@ to upgrade.
 - **`legacy`.** It's a field for migrating an older bank.
 
 What QREtools is: [About QREtools](https://github.com/JHUCities/qretools#readme).
+
+## Licence
+
+© 2026 Johns Hopkins University. The tutorial is licensed under Creative Commons
+Attribution 4.0 International (CC BY 4.0, `LICENSE`): you may share and adapt it, for any
+purpose, if you credit "QREtools tutorial, Johns Hopkins University" and link to the
+licence.
