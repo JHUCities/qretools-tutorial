@@ -1,10 +1,11 @@
 # Lesson 18, part 2 (part 1 is in Settings →
 # missing.yaml).
 #
-# What this shows: codes are the bank's own. This
-# question uses "-9" for an answer, but "-9" is the
-# bank's missing value "Don't know": the data couldn't
-# tell the two apart. The warning says so.
+# What this shows: a question shouldn't reuse a missing
+# value's code. This question uses "-9" for an answer,
+# but "-9" is the bank's missing value "Don't know", so
+# the data couldn't tell them apart. Once you've done
+# part 1, a warning says so.
 #
 # To do:
 #   1. Change the code "-9" below to "4".

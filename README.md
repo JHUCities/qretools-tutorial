@@ -1,43 +1,42 @@
 # The QREtools tutorial
 
-Learn QREtools by doing: 33 short lessons, each a file with a gap or two for you to fill
-in. Part 1 builds a small bank of questions about a neighborhood's parks. Part 2 builds
-a survey that asks them.
+Learn QREtools by doing: 33 short lessons, each a file with a gap or two to fill in.
+Part 1 builds a small bank of questions about a neighborhood's parks. Part 2 builds a
+survey that asks them.
 
 Every lesson works the same way. Open its file, read the comment at the top, and do
-what it says. The dashed circle beside the file in the tree turns into a green tick when
-you're done. Then move on to the next one.
+what it says. When you're done, the dashed circle beside the file turns into a green
+tick. Then go on to the next one.
 
 ## Before you start
 
-1. **Make your own copy.** Press **Use this template** → **Create a new repository**,
-   at the top of this page. A private repository is fine. Leave "Include all branches"
-   unticked.
+1. **Make your own copy.** At the top of this page, press **Use this template** →
+   **Create a new repository**. Private is fine. Leave "Include all branches" unticked.
 2. **Install the QREtools app** on your copy:
    <https://github.com/apps/qretools/installations/new>. Choose your account, then
-   "Only select repositories", then your copy. Without it you can read the lessons, but
-   not save.
+   "Only select repositories", then your copy. Without it you can read the lessons but
+   can't save.
 3. **Open it in QREtools.** Go to <https://qretools.com>, enter your copy as
    `owner/name`, and sign in with GitHub.
 4. **Open lesson 1.** In the tree on the left, open Questions → `lesson01_intent` →
    `consent`.
 
-**Saving:** press **Save** on each file once its tick is green. Save saves the file
-that's open, to your own branch on GitHub (`qretools-<your login>`), so it's safe if you
-close the tab. Nothing changes in `main` until you open a pull request and merge it:
-the pull-request icon beside your branch name ("Propose changes") opens one.
+**Saving:** press **Save** on each file once its tick is green. Save puts the open
+file on your own branch on GitHub (`qretools-<your login>`), so it's safe if you close
+the tab. `main` doesn't change until you open a pull request and merge it. The
+pull-request icon beside your branch name ("Propose changes") opens one.
 
 **Stuck?** The finished tutorial is on the
-[`solutions` branch](https://github.com/JHUCities/qretools-tutorial/tree/solutions) of the original repository. Compare your file
-with the same file there.
+[`solutions` branch](https://github.com/JHUCities/qretools-tutorial/tree/solutions) of
+the original repository. Compare your file with the same file there.
 
 ## From a terminal
 
-`mise.toml` pins Node and QREtools' npm package, `qretools`, whose command checks a workspace. With
-[mise](https://mise.jdx.dev): `mise install`, then `qretools check .` to list what's to
-fill in or fix, as QREtools shows it: a lesson's findings, the same as in the app.
-Without mise: `npx qretools@<the version in mise.toml> check .`. Change the version there
-to upgrade.
+`qretools check .` lists what's left to fill in or fix: the same findings the app
+shows. `mise.toml` pins the versions of Node and of `qretools`. With
+[mise](https://mise.jdx.dev), run `mise install`, then `qretools check .`. Without
+mise, run `npx qretools@<the version in mise.toml> check .`. To upgrade, change the
+version in `mise.toml`.
 
 ## The lessons
 
@@ -86,12 +85,17 @@ to upgrade.
 
 ## Not in the tutorial
 
-- **A bank in another repository.** An instrument can ask questions from another
-  workspace at a release tag (`uses: other: owner/repo@v1`), never a branch. Saving the
-  instrument records the commit the tag pointed to, under `locked:` in `workspace.yaml`,
-  so you're warned if the tag is ever moved. The
-  [workspace template](https://github.com/JHUCities/qretools-template) explains it,
-  including how a question's DDI version is numbered.
-- **`legacy`.** It's a field for migrating an older bank.
+- **Questions from another repository.** An instrument can ask questions from
+  another workspace, at a release (`uses: other: owner/repo@v1`), never a branch. The
+  [workspace template](https://github.com/JHUCities/qretools-template) explains how,
+  and how a question's DDI version is numbered.
+- **`legacy`.** A field for bringing in an older bank.
 
 What QREtools is: [About QREtools](https://github.com/JHUCities/qretools#readme).
+
+## License
+
+© 2026 Johns Hopkins University. The tutorial is licensed under Creative Commons
+Attribution 4.0 International (CC BY 4.0, `LICENSE`): you may share and adapt it, for any
+purpose, if you credit "QREtools tutorial, Johns Hopkins University" and link to the
+license.

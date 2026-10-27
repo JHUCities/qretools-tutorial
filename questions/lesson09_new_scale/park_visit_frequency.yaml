@@ -1,16 +1,16 @@
 # ── Lesson 9 of 33: a new shared scale ──
 #
-# What this shows: naming a scale that doesn't exist
-# yet. QREtools offers to make it.
+# What this shows: if you name a scale that doesn't
+# exist yet, QREtools offers to make it.
 #
 # To do:
 #   1. frequency5 is underlined: no shared scale has
 #      that name. In the Findings list, click "New
-#      shared scale frequency5"; a dialog opens: press
+#      shared scale frequency5". In the dialog, press
 #      Create.
-#   2. Its file opens with options "1" and "2" waiting
-#      for labels. Label them, then add "3" to "5" below
-#      them, indented the same:
+#   2. Its file opens with options "1" and "2", without
+#      labels. Label them, then add "3" to "5" below,
+#      indented the same:
 #        "1": Every day
 #        "2": Every week
 #        "3": Every month
