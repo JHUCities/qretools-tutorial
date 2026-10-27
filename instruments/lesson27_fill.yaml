@@ -2,9 +2,8 @@
 #
 # What this shows: lesson 15's park_comments has a fill,
 # {{rating}}. Here the instrument says what fills it:
-# the label of the satisfaction answer. label(…) gives
-# an answer's words ("Very satisfied") rather than its
-# code ("1").
+# the satisfaction answer. label(…) gives the answer's
+# words ("Very satisfied"), not its code ("1").
 #
 # To do:
 #   1. After  rating:  write

@@ -1,5 +1,5 @@
-# A shared scale, used by name (responses:
-# satisfaction4).
+# A shared scale. Questions use it by name
+# (responses: satisfaction4).
 labels:
   "1": Very satisfied
   "2": Fairly satisfied
