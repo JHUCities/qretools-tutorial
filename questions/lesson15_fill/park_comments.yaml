@@ -2,13 +2,14 @@
 #
 # What this shows: a fill puts words from an earlier
 # answer into the text, in double braces: {{rating}}.
-# The question says what kind of words each fill takes;
-# the instrument says where they come from (lesson 27).
+# The question says what kind of words each fill takes.
+# The instrument says where they come from (lesson 27).
 #
 # To do:
-#   1. rating is underlined: it isn't declared yet. At
-#      the end, add: fills:
-#        rating: text
+#   1. rating is underlined: the question doesn't list
+#      it yet. At the end, add:
+#        fills:
+#          rating: text
 #
 # Done when: park_comments has a green tick. Its
 # respondent preview shows where the fill goes.

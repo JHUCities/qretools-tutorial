@@ -2,9 +2,9 @@
 #
 # What this shows: else says what happens otherwise. An
 # else can hold another if, to test one thing after
-# another. in {…} tests for any of several codes. Notice
-# that else holds one if with no dash before it: an else
-# holds either a list of steps (with dashes) or one if.
+# another. in {…} tests for any of several codes. An
+# else holds either a list of steps (with dashes) or one
+# if (with no dash), as below.
 #
 # To do:
 #   1. After the second  if:  write
