@@ -9,6 +9,12 @@
 #        number: { min: 1, max: 20 }
 #      min and max are the smallest and largest answers
 #      allowed.
+#      Both are optional, but keep max here. Lesson 29
+#      asks a roster once per person, and counts the
+#      rounds with this answer:
+#        count: bank.household_size
+#      A roster needs to know its most rounds. Without
+#      max here, lesson 29 asks for one on the roster.
 #
 # Done when: household_size has a green tick.
 # member_age, beside it, is already complete: look at it
