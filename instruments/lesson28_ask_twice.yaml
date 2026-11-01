@@ -1,9 +1,9 @@
 # ── Lesson 28 of 33: asking a question twice ──
 #
 # What this shows: a question asked twice would store
-# two answers under one name. That's the red error here;
-# it's expected. as gives the second answer a name of
-# its own.
+# two answers under one name. That's the red error
+# here, and it's expected. as gives the second answer a
+# name of its own.
 #
 # To do:
 #   1. Under the second  - ask: bank.park_satisfaction ,

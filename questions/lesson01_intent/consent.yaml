@@ -11,12 +11,12 @@
 # The circle beside each file in the tree says how it
 # stands: a green tick means complete, a dashed circle
 # means something to fill in. The other files with
-# circles, Instruments included, are later lessons. A
-# red circle on an instrument means it asks a question
-# you haven't finished yet.
+# circles are later lessons. A red circle on an
+# instrument means it asks a question you haven't
+# finished yet.
 
-# Its name, used in the data and by other files.
-# Lowercase letters, digits and underscores; it starts
+# Its name, used in the data and by other files:
+# lowercase letters, digits and underscores, starting
 # with a letter.
 name: consent
 # A short label, for codebooks and lists.

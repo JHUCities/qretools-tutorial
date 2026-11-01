@@ -9,16 +9,13 @@
 #        number: { min: 1, max: 20 }
 #      min and max are the smallest and largest answers
 #      allowed.
-#      Both are optional, but keep max here. Lesson 29
-#      asks a roster once per person, and counts the
-#      rounds with this answer:
-#        count: bank.household_size
-#      A roster needs to know its most rounds. Without
-#      max here, lesson 29 asks for one on the roster.
+#      Keep max here: lesson 29 asks about each person
+#      in turn, and needs to know the most there can be.
+#      A number question can also have  decimals: , how
+#      many decimal places are allowed (0 means whole
+#      numbers only).
 #
 # Done when: household_size has a green tick.
-# member_age, beside it, is already complete: look at it
-# for decimals and a unit.
 name: household_size
 title: People in the household
 text: How many people live in your household, including you?
