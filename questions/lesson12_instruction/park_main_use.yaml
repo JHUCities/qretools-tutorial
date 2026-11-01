@@ -7,6 +7,12 @@
 # To do:
 #   1. After  instruction:  write  select_one .
 #
+# An instruction is only words: it doesn't change how
+# the question is answered. Whether the respondent
+# picks one option or ticks several is set by
+# select: many  (lesson 14). With select_all here,
+# they could still pick only one.
+#
 # Done when: park_main_use has a green tick.
 name: park_main_use
 title: Main use of the park
