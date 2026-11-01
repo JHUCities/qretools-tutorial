@@ -19,7 +19,10 @@
 #   3. Come back here (the browser's Back button).
 #
 # Done when: park_visit_frequency, and frequency5 under
-# Shared → Scales, have green ticks. Save both.
+# Shared → Scales, have green ticks. Then save
+# park_visit_frequency: while frequency5 is unsaved,
+# "with scale frequency5" beside Save says it's saved
+# too.
 name: park_visit_frequency
 title: How often parks are visited
 text: How often do you visit a park in this neighborhood?
