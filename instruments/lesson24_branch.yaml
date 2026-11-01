@@ -6,8 +6,8 @@
 # To do:
 #   1. After  if:  write  bank.park_visited = "1" (Yes).
 #   2. The blue note on  - ask: bank.park_safety  says
-#      only some people reach it, but its universe says
-#      everyone. Under that line, lined up with "ask", add:
+#      not everyone reaches it, but it has no universe.
+#      Under that line, lined up with "ask", add:
 #        universe: bank.park_visitors
 #
 # Done when: this instrument has a green tick.

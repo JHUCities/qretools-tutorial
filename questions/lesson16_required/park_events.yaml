@@ -1,9 +1,8 @@
 # ── Lesson 16 of 33: a required field ──
 #
-# What this shows: a workspace can make more fields
-# required for every question. Every question in this
-# tutorial has a title except this one. Watch what
-# happens.
+# What this shows: a workspace can require more fields
+# of every question. Every question in this tutorial
+# has a title except this one. Watch what happens.
 #
 # To do:
 #   1. Open Settings → workspace.yaml in the tree, and

@@ -2,9 +2,9 @@
 #
 # What this shows: QREtools looks for repeats across the
 # whole bank. This question and park_spending_reversed
-# have the same text, so both warn. Here it's on
-# purpose: they're two halves of an experiment on the
-# order of the options.
+# have the same text, so both show a warning. Here it's
+# on purpose: they're two halves of an experiment on
+# the order of the options.
 #
 # To do: open park_spending_reversed beside it, and
 # follow its comment.
