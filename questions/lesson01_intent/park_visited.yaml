@@ -1,8 +1,8 @@
 # ── Lesson 1 of 33: the intent ──
 #
 # What this shows: every question says why it's asked.
-# This is its intent. It's for the people who analyze
-# the data, and anyone who reuses the question.
+# That's its intent, for whoever analyzes the data or
+# reuses the question.
 #
 # To do:
 #   1. After  intent:  below, write a full sentence
@@ -19,7 +19,7 @@
 # the right: the question as the respondent sees it, and
 # its codebook entry.
 #
-# Then press Save at the top. Save puts the open file on
+# Now press Save at the top. Save puts the open file on
 # your own branch on GitHub, so it's safe if you close
 # the tab. The shared bank doesn't change until a pull
 # request is merged. Save each file once its tick is

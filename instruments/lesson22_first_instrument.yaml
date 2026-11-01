@@ -1,13 +1,13 @@
 # ── Lesson 22 of 33: a first instrument ──
 #
-# Part 2: an instrument is a survey: which questions are
+# Part 2. An instrument is a survey: which questions are
 # asked, in what order, and to whom. It asks the
 # questions you wrote in Part 1.
 #
 #   - uses says where the questions come from: "bank"
 #     is this workspace (../).
 #   - flow lists the steps, each starting with a dash.
-#   - say shows a statement.
+#   - say shows the respondent some words.
 #   - ask asks a question, written bank.<its name>.
 #
 # The Outline on the right shows the flow. Click a step

@@ -9,6 +9,8 @@
 #        number: { min: 1, max: 20 }
 #      min and max are the smallest and largest answers
 #      allowed.
+#      Keep max here: lesson 29 asks about each person
+#      in turn, and needs to know the most there can be.
 #
 # Done when: household_size has a green tick.
 # member_age, beside it, is already complete: look at it

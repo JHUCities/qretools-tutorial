@@ -2,8 +2,8 @@
 #
 # What this shows: a check tests an answer as it's
 # given. Its severity says what happens when it fails:
-#   info      a remark;
-#   warning   asks them to look again;
+#   info      shows its message as a remark;
+#   warning   shows its message as a warning;
 #   blocking  they can't go on until it passes.
 # Two tests are used below: isnull(x) is true when x has
 # no answer; between(x, 0, 30) is true when x is from 0
