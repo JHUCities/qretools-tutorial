@@ -1,7 +1,7 @@
 # ── Lesson 21 of 33: your own question ──
 #
 # What this shows: writing a question from scratch,
-# filing it, and deleting one.
+# saving it in a folder, and deleting one.
 #
 # To do:
 #   1. Press New → Blank question. Write your own
@@ -12,7 +12,7 @@
 #      lesson21_your_own.
 #   3. Come back to this file and delete it: press
 #      Delete at the top, and confirm.
-#   4. Try Move… on your question: it files it in
+#   4. Try Move… on your question: it moves it to
 #      another folder.
 #
 # Done when: your question has a green tick and is

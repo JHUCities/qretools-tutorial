@@ -4,10 +4,10 @@
 # given. Its severity says what happens when it fails:
 #   info      a remark;
 #   warning   asks them to look again;
-#   blocking  they can't go on until it holds.
-# Two tests are used below: isnull(x), true when x has
-# no answer, and between(x, 0, 30), true when x is from
-# 0 to 30.
+#   blocking  they can't go on until it passes.
+# Two tests are used below: isnull(x) is true when x has
+# no answer; between(x, 0, 30) is true when x is from 0
+# to 30.
 #
 # To do:
 #   1. After the empty  ensure:  write

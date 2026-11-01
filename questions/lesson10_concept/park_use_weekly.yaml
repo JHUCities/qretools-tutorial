@@ -1,17 +1,17 @@
 # ── Lesson 10 of 33: a shared concept ──
 #
-# What this shows: a concept is what a question
-# measures, the idea behind it. Questions that measure
-# the same thing name the same shared concept, so they
-# can be found together. Here the concept is written as
-# words, so there's a warning.
+# What this shows: a concept is the idea a question
+# measures. Questions that measure the same thing name
+# the same shared concept, so they can be found
+# together. Here the concept is written out in words,
+# not named, so there's a warning.
 #
 # To do:
 #   1. In the Findings list, apply "Make it a shared
 #      concept use_of_local_parks". Confirm the name,
 #      and the label it suggests.
-#   2. Its file opens with  label:  set. A  definition:
-#      is optional; write one if you like, such as: How
+#   2. Its file opens with  label:  filled in. You can
+#      add a  definition:  if you like, such as: How
 #      often, and for what, residents go to the parks
 #      near their home.
 #

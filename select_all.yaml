@@ -1,9 +1,9 @@
 # ── Lesson 19 of 33: storing select all ──
 #
 # What this shows: a "select all that apply" question
-# records one value per option: whether it was ticked.
-# These are the two values each option's variable holds.
-# Lesson 14's travel_modes question is stored this way.
+# stores one value per option: was it ticked or not?
+# These are the two values. Lesson 14's travel_modes
+# is stored this way.
 #
 # To do:
 #   1. After not_chosen, write  { "0": No }  (the value

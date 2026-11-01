@@ -1,5 +1,5 @@
-# Lesson 4, given complete: a number question with every
-# option.
+# Lesson 4, already complete: a number question with
+# every setting.
 name: member_age
 title: Age of a household member
 text: How old is this person?
@@ -8,7 +8,7 @@ universe: household_members
 number:
   min: 0
   max: 120
-  # The number of decimal places allowed: 0 means whole
+  # How many decimal places are allowed: 0 means whole
   # numbers only.
   decimals: 0
   # A unit: lesson 13 explains.

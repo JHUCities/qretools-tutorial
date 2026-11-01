@@ -2,8 +2,8 @@
 #
 # What this shows: a question's own options. Each has a
 # code (stored in the data) and a label (what the
-# respondent reads). Write codes in quotes, "1", so they
-# stay text exactly as you wrote them.
+# respondent reads). Put codes in quotes, "1", so they
+# stay exactly as you wrote them.
 #
 # To do:
 #   1. Option "2" has no label: write  Fairly clean

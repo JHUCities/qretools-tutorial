@@ -1,11 +1,11 @@
 # ── Lesson 18 of 33: missing values ──
 #
-# What this shows: missing values. When a question has
-# no real answer (the respondent refused, or didn't
-# know), the data records one of these codes instead.
-# They're the bank's, so every question shares them; you
-# never list them in a question. The Codebook preview of
-# any question shows them on its last line.
+# What this shows: missing values. When there's no real
+# answer (the respondent refused, or didn't know), the
+# data records one of these codes instead. Every
+# question shares them, so you never list them in a
+# question. Any question's Codebook preview shows them
+# on its last line.
 #
 # To do:
 #   1. Label code "-9" below: write  Don't know  after

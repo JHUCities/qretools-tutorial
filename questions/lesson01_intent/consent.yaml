@@ -9,22 +9,21 @@
 # delete.
 #
 # The circle beside each file in the tree says how it
-# stands: a green tick is complete, a dashed circle has
-# something to fill in. Other files with circles, the
-# Instruments included, are later lessons; you'll get to
-# them. A red circle there means it asks a question you
-# haven't finished yet.
+# stands: a green tick means complete, a dashed circle
+# means something to fill in. The other files with
+# circles, Instruments included, are later lessons. A
+# red circle on an instrument means it asks a question
+# you haven't finished yet.
 
-# Its name: how data and other files refer to it.
-# Lowercase letters, digits and underscores, starting
+# Its name, used in the data and by other files.
+# Lowercase letters, digits and underscores; it starts
 # with a letter.
 name: consent
 # A short label, for codebooks and lists.
 title: Consent to the interview
 # The question exactly as the respondent reads it.
 text: Do you agree to take part in this survey?
-# Why the question is asked: what you want to learn from
-# it.
+# Why it's asked: what you want to learn from it.
 intent: Records whether the respondent agrees to be interviewed, before anything else is asked.
 # How it's answered: here, by picking from the shared
 # Yes/No scale (lesson 7).

@@ -1,12 +1,12 @@
 # ── Lesson 32 of 33: order, timing and inputs ──
 #
 # What this shows:
-#   - inputs are values given before the interview, such
-#     as which wave of the survey this is; they're used
+#   - inputs are values known before the interview, such
+#     as which wave of the survey this is. They're used
 #     like answers.
-#   - a section groups steps; order: random shows them
-#     in a random order.
-#   - on an ask, options: random shuffles its options;
+#   - a section groups steps. order: random puts them in
+#     a random order.
+#   - on an ask, options: random shuffles the options.
 #     seconds says how long it should take, for
 #     planning.
 #

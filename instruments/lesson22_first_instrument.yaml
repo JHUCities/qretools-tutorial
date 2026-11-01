@@ -1,16 +1,16 @@
 # ── Lesson 22 of 33: a first instrument ──
 #
 # Part 2: an instrument is a survey: which questions are
-# asked, in what order, and of whom. It asks the
+# asked, in what order, and to whom. It asks the
 # questions you wrote in Part 1.
 #
-#   - uses names where the questions come from: "bank"
+#   - uses says where the questions come from: "bank"
 #     is this workspace (../).
 #   - flow lists the steps, each starting with a dash.
 #   - say shows a statement.
 #   - ask asks a question, written bank.<its name>.
 #
-# The Outline on the right shows the flow; click a step
+# The Outline on the right shows the flow. Click a step
 # to go to it.
 #
 # To do:
@@ -23,7 +23,7 @@
 name: lesson22_first_instrument
 title: A first instrument
 description: Welcomes the respondent, asks for consent, then asks one question.
-# Whom the whole survey is for.
+# Who the whole survey is for.
 universe: bank.all_respondents
 uses:
   bank: ../

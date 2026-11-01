@@ -1,5 +1,5 @@
-# A shared scale: two options, used by name (responses:
-# yes_no). Lesson 7 explains.
+# A shared scale with two options. Questions use it by
+# name (responses: yes_no). See lesson 7.
 labels:
   "1": Yes
   "2": No
