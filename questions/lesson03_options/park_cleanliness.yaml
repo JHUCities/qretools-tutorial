@@ -1,7 +1,7 @@
 # ── Lesson 3 of 33: response options ──
 #
-# What this shows: a question's own options. Each has a
-# code (stored in the data) and a label (what the
+# What this shows: a question's options. Each option
+# has a code (stored in the data) and a label (what the
 # respondent reads). Put codes in quotes, "1", so they
 # stay exactly as you wrote them.
 #
