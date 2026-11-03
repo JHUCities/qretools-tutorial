@@ -3,6 +3,9 @@
 # What this shows: stop ends the survey for people it
 # isn't for, with a message to them. Its condition
 # compares an answer with one of its codes, in quotes.
+# Because it ends the whole survey, stop goes only in
+# the instrument's main flow: not under if, else or a
+# section.
 #
 # To do:
 #   1. After  stop:  write  bank.consent = "2"
