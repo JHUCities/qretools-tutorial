@@ -5,6 +5,10 @@
 # then goes back over the rounds and can show their
 # answers.
 #
+# max caps the rounds: here, someone who visited a
+# park every day of the month describes only five
+# visits.
+#
 # To do:
 #   1. After  more:  write  bank.another_visit = "1"
 #
