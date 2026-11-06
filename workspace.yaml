@@ -1,21 +1,22 @@
-# This workspace's settings. Lessons 16, 17 and 33 come
-# back here.
+# The settings of this workspace. Lessons 16, 17 and 33
+# use this file.
 
-# The DDI agency: the registered code of the
-# organization that looks after these questions. Every
-# DDI identifier includes it. Lesson 33 comes back to
-# it; leave it for now.
+# The DDI agency. The agency is the registered code of
+# the organization that keeps these questions. Every DDI
+# identifier includes the agency. Lesson 33 tells you
+# more. Do not change the agency now.
 agency: org.example
 
-# Lesson 16: fields every question must have, as well
-# as name, text and intent. Remove the # at the start of
-# the next two lines (Cmd-/ does it).
+# Lesson 16: the fields that every question must have,
+# in addition to name, text and intent. Delete the # at
+# the start of the next two lines. Cmd-/ also deletes
+# them.
 #required:
 #  - title
 
-# Lesson 17: fields one folder's questions must also
-# have. Remove the # at the start of the next three
-# lines.
+# Lesson 17: the fields that the questions of one
+# folder must also have. Delete the # at the start of
+# the next three lines.
 #required_in:
 #  questions/lesson17_required_in:
 #    - universe

@@ -1,16 +1,18 @@
 # ── Lesson 30 of 33: a roster that asks for more ──
 #
-# What this shows: a roster can keep going while the
-# answer to "another?" is Yes, up to max rounds. Lesson
-# 29 knew the count before it started; here you don't,
-# so you ask after each round. each then goes back over
-# the rounds and can read their answers back.
+# A roster can continue while the answer to "another?"
+# is Yes, to a maximum of max rounds. Lesson 29 knew the
+# quantity of rounds before the roster started. This
+# roster does not know it, so it asks after each round.
+# each then goes through the rounds again, and can read
+# their answers back.
 #
-# max caps the rounds: here, someone who visited more
-# than five parks tells you about five.
+# max is the limit of the rounds. In this instrument, a
+# respondent who visited more than five parks tells you
+# about five parks.
 #
 # To do:
-#   1. After  more:  write  bank.another_park = "1"
+#   1. Write  bank.another_park = "1"  after  more: .
 #
 # Done when: this instrument has a green tick.
 name: lesson30_more

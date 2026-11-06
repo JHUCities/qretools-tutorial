@@ -1,18 +1,18 @@
-# ── Lesson 32 of 33: order, timing and inputs ──
+# ── Lesson 32 of 33: order, time and inputs ──
 #
-# What this shows:
-#   - inputs are values known before the interview, such
-#     as which wave of the survey this is. They're used
-#     like answers.
-#   - a section groups steps. order: random puts them in
-#     a random order.
-#   - on an ask, options: random shuffles the options.
-#     seconds says how long it should take, for
-#     planning.
+#   - inputs are the values that you know before the
+#     interview, such as the wave of the survey. Use an
+#     input as you use an answer.
+#   - a section groups steps. The setting  order: random
+#     puts the steps of the section in a random order.
+#   - on an ask, the setting  options: random  puts the
+#     options in a random order. The setting  seconds
+#     gives the time that the question must take. Use
+#     seconds to plan the survey.
 #
 # To do:
-#   1. After  order:  write  random  (or choose it with
-#      the button after it).
+#   1. Write  random  after  order: , or select it with
+#      the button after order.
 #
 # Done when: this instrument has a green tick.
 name: lesson32_order
@@ -21,7 +21,7 @@ uses:
 inputs:
   wave:
     number: { min: 1, max: 4 }
-    description: Which wave of the survey this is, from the sample file.
+    description: The wave of the survey, from the sample file.
 flow:
   - section: About the parks
     order:
