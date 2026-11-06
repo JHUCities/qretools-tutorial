@@ -1,7 +1,0 @@
-# Complete. Lesson 30 asks this question.
-name: another_park
-title: Another park visited
-text: Did you visit another park in this neighborhood in the past month?
-intent: Asks whether to record one more park, so each park the respondent used is described in turn.
-universe: park_visitors
-responses: yes_no

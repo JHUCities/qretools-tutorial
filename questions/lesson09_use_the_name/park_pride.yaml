@@ -1,0 +1,25 @@
+# ── Lesson 9 of 35: a warning and a quick fix ──
+#
+# A warning is orange. A warning is stronger advice than
+# a note. The options in this file are the options of
+# the shared scale agreement4, written again. The
+# warning tells you to use the name of the scale. It
+# also offers to make the change for you. That offer is
+# a quick fix.
+#
+# To do: apply the fix "Use agreement4". Use one of
+# these three methods:
+#   - In the Findings list, click "Use agreement4" below
+#     the warning.
+#   - Put the pointer on the underlined options, and
+#     click the fix in the tooltip.
+#   - Put the cursor on the underlined options, and
+#     press Cmd-. , or Ctrl-. on other systems.
+#
+# Done when: park_pride has a green tick. To do the
+# lesson again, press Cmd-Z. Cmd-Z undoes the fix.
+name: park_pride
+title: Pride in the parks
+text: I'm proud of the parks in my neighborhood.
+intent: Measures residents' attachment to local parks, as a sign of how they value them.
+responses: agreement4

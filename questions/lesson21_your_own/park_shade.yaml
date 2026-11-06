@@ -1,7 +1,0 @@
-# Lesson 21: a question that someone wrote from the
-# start. Your question will be different.
-name: park_shade
-title: Enough shade in parks
-text: Is there enough shade in the parks here on hot days?
-intent: Measures whether residents find enough shade in local parks, to guide where to plant trees.
-responses: yes_no

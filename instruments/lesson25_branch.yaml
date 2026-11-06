@@ -1,0 +1,24 @@
+# ── Lesson 25 of 35: if, then ──
+#
+# if asks some questions only when a condition is true.
+#
+# To do:
+#   1. Write  bank.park_visited = "1"  after  if: . The
+#      code "1" is Yes.
+#   2. Look at the blue note on
+#      - ask: bank.park_main_use . Not all respondents
+#      get this question, but the question has no
+#      universe.
+#   3. Add this line below that line, in line with ask:
+#        universe: bank.park_visitors
+#
+# Done when: this instrument has a green tick.
+name: lesson25_branch
+uses:
+  bank: ../
+flow:
+  - ask: bank.park_visited
+  - if: bank.park_visited = "1"
+    then:
+      - ask: bank.park_main_use
+        universe: bank.park_visitors

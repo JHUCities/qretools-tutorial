@@ -1,0 +1,32 @@
+# ── Lesson 2 of 35: the intent ──
+#
+# Every question gives the reason you ask it. The reason
+# is the intent. The person who analyzes the data reads
+# the intent. The person who uses the question again
+# also reads it.
+#
+# To do:
+#   1. Write a full sentence after  intent: . Write what
+#      you want to learn, such as: Estimates how many
+#      residents used a park in this neighborhood in the
+#      past month.
+#
+# An empty intent shows a dashed circle: you must fill
+# it in. The Findings list on the right shows the same.
+#
+# Done when: the circle beside park_visited in the tree
+# is a green tick. Then look at the previews on the
+# right. One preview shows the question as the
+# respondent sees it. The other shows its codebook
+# entry.
+#
+# Then press Save at the top. Save puts the open file on
+# your own branch on GitHub. Your work is then safe if
+# you close the tab. The shared bank does not change
+# until someone merges a pull request. Save each file
+# when its tick is green.
+name: park_visited
+title: Visited a park recently
+text: In the past month, have you visited a park in this neighborhood?
+intent: Estimates how many residents used a park in this neighborhood in the past month.
+responses: yes_no
