@@ -1,17 +1,17 @@
-# ── Lesson 19 of 33: how select all that apply is
+# ── Lesson 20 of 35: how select all that apply is
 # stored ──
 #
 # A "select all that apply" question stores one value
 # for each option. The value records whether the
 # respondent ticked the option. These two values are the
-# two possible values. Lesson 14 wrote travel_modes,
+# two possible values. Lesson 15 wrote travel_modes,
 # which the data stores in this way.
 #
 # To do:
 #   1. Write  { "0": No }  after not_chosen. That value
 #      is the value of an option that the respondent
 #      does not tick.
-#   2. Open Questions → lesson14_select_all →
+#   2. Open Questions → lesson15_select_all →
 #      travel_modes, and look at its Codebook preview.
 #      The data stores one variable for each option.
 #      Each variable is 1 Yes or 0 No.

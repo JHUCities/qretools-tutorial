@@ -1,0 +1,30 @@
+# ── Lesson 28 of 35: a number from a coded answer ──
+#
+# Lesson 27's computed value was true or false. This one
+# is a number, and the answer it reads is a coded one, so
+# it needs cast.
+#
+# cast(x, integer) reads the code as the number it looks
+# like. The codes of satisfaction4 run "1" Very satisfied
+# to "4" Not at all satisfied, so a bigger code means
+# less satisfied. Take the code from 5, the lowest code
+# plus the highest, and the number runs the other way:
+# bigger means more satisfied. Do that before you add
+# such numbers up or average them.
+#
+# To do:
+#   1. Write this value after  value: :
+#        5 - cast(bank.park_satisfaction, integer)
+#
+# Done when: this instrument has a green tick. If you
+# leave out  integer , the finding offers the fix.
+name: lesson28_cast
+uses:
+  bank: ../
+flow:
+  - ask: bank.park_satisfaction
+  - compute: satisfaction_points
+    value:
+  - if: satisfaction_points >= 4
+    then:
+      - say: Thank you. You're happy with the parks here.

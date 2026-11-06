@@ -1,0 +1,20 @@
+# ── Lesson 14 of 35: a unit ──
+#
+# A number can have a unit. Units are shared. Look at
+# Shared → Units in the tree. No unit has the name
+# "day", but one unit has the name "days". QREtools
+# finds the difference.
+#
+# To do:
+#   1. Apply the fix "Use days". Use the Findings list,
+#      the tooltip, or Cmd-. .
+#
+# Done when: park_visit_days has a green tick.
+name: park_visit_days
+title: Days visiting a park
+text: In the past 30 days, on how many days did you visit a park in this neighborhood?
+intent: Estimates how many days a month residents use parks, a finer measure than whether they go.
+number:
+  min: 0
+  max: 30
+  unit: day

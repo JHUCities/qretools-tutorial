@@ -1,0 +1,25 @@
+# ── Lesson 17 of 35: a required field ──
+#
+# A workspace can make more fields necessary in every
+# question. Every question in this tutorial has a title,
+# but this question does not. Do the steps, and see the
+# result.
+#
+# To do:
+#   1. Open Settings → workspace.yaml in the tree.
+#      Delete the # at the start of the two lines below
+#      "Lesson 17". Those lines are  required:  and
+#      - title .
+#   2. Return to this file. park_events now shows a
+#      dashed circle, because you must fill in the
+#      title.
+#   3. Add a title, such as:  title: Park events
+#      attended
+#
+# Done when: park_events has a green tick. Save this
+# file, and save workspace.yaml also. If you do not save
+# workspace.yaml, the setting stays in this tab only.
+name: park_events
+text: Have you been to an event in a park here this year?
+intent: Measures participation in organized park events, such as concerts or clean-ups.
+responses: yes_no
