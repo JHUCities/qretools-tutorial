@@ -1,6 +1,7 @@
+# Made in lesson 9.
 labels:
-  "1": Every day
-  "2": Every week
-  "3": Every month
-  "4": Less often
+  "1": Most days
+  "2": At least once a week
+  "3": At least once a month
+  "4": Less than once a month
   "5": Never

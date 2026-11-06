@@ -36,7 +36,7 @@ flow:
   - ask: bank.park_visited
   - if: bank.park_visited = "1"
     then:
-      - ask: bank.park_safety
+      - ask: bank.park_main_use
         universe: bank.park_visitors
       - ask: bank.park_visit_days
         universe: bank.park_visitors
