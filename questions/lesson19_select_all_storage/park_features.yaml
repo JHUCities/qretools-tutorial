@@ -1,7 +1,7 @@
 # Lesson 19 is in Settings → select_all.yaml. This
-# question is already complete. Once you've done lesson
-# 19, look at its Codebook and DDI previews: one value
-# is stored per option.
+# question is complete. When you finish lesson 19, look
+# at the Codebook and DDI previews of this question. The
+# data stores one value for each option.
 name: park_features
 title: Park features used
 text: Which of these park features have you used this year?
