@@ -6,7 +6,7 @@
 # To do:
 #   1. Fill in the two dashed circles: the stop's
 #      condition, and the question asked in the branch
-#      (park_safety).
+#      (park_main_use).
 #   2. Look at the DDI pane on the right. Download DDI
 #      saves the survey in DDI, the standard for
 #      documenting surveys. Download QSF saves it for
@@ -40,10 +40,11 @@ flow:
         universe: bank.park_visitors
       - ask: bank.park_visit_days
         universe: bank.park_visitors
+      - ask: bank.travel_modes
+        universe: bank.park_visitors
   - ask: bank.park_satisfaction
   - ask: bank.park_comments
     fill:
       rating: label(bank.park_satisfaction)
-  - ask: bank.travel_modes
   - ask: bank.household_size
   - say: Thank you. That's the end of the survey.
