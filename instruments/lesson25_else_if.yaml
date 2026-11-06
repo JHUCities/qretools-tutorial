@@ -7,8 +7,8 @@
 #
 # To do:
 #   1. After the second  if:  write
-#      bank.park_visit_frequency in {"3", "4"} (every
-#      month, or less often).
+#      bank.park_visit_frequency in {"3", "4"} (at least
+#      once a month, or less than once a month).
 #
 # Done when: this instrument has a green tick.
 name: lesson25_else_if
