@@ -79,6 +79,7 @@ Lesson 1 is in Settings → `workspace.yaml`: the agency, the code every questio
 | 25 | `lesson25_branch` | if, then; whom a branch's questions are for |
 | 26 | `lesson26_else_if` | else, and else if; `in {…}` |
 | 27 | `lesson27_compute` | computed values; and, or |
+| 28 | `lesson28_cast` | a computed number: cast, and reversing a scale |
 | 29 | `lesson29_fill` | what fills a question's text |
 | 30 | `lesson30_ask_twice` | asking a question twice: `as` |
 | 31 | `lesson31_roster` | a roster: once per person; `{{index}}` |
