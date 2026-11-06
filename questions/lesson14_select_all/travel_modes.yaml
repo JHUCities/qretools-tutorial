@@ -20,7 +20,7 @@
 # Done when: travel_modes has a green tick.
 name: travel_modes
 title: Ways of getting to the park
-text: How do you usually get to a park here?
+text: How do you get to a park here?
 intent: Describes how residents reach local parks, to plan paths, cycle racks and bus stops.
 instruction: select_all
 select: many

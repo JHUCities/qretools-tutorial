@@ -14,6 +14,11 @@
 #      can open it and add a  definition:  such as: How
 #      often, and for what, residents go to the parks
 #      near their home.
+#   3. Three other questions measure the same thing:
+#      park_visited, park_visit_frequency and
+#      park_visit_days. Open park_visit_frequency and
+#      give it the same concept. The inspector then says
+#      the concept is used by two questions.
 #
 # Done when: park_use_weekly has a green tick.
 name: park_use_weekly
