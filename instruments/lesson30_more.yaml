@@ -1,12 +1,13 @@
 # ── Lesson 30 of 33: a roster that asks for more ──
 #
 # What this shows: a roster can keep going while the
-# answer to "another?" is Yes, up to max rounds. each
-# then goes back over the rounds and can show their
-# answers.
+# answer to "another?" is Yes, up to max rounds. Lesson
+# 29 knew the count before it started; here you don't,
+# so you ask after each round. each then goes back over
+# the rounds and can show their answers, to check them.
 #
 # To do:
-#   1. After  more:  write  bank.another_visit = "1"
+#   1. After  more:  write  bank.another_park = "1"
 #
 # Done when: this instrument has a green tick.
 name: lesson30_more
@@ -16,15 +17,16 @@ flow:
   - ask: bank.park_visited
   - if: bank.park_visited = "1"
     then:
-      - roster: visits
-        more: bank.another_visit = "1"
+      - roster: parks
+        more: bank.another_park = "1"
         max: 5
         flow:
-          - say: Now about visit {{index}}.
+          - say: Now about park {{index}}.
           - ask: bank.visit_minutes
             universe: bank.park_visitors
-          - ask: bank.another_visit
+          - ask: bank.another_park
             universe: bank.park_visitors
-      - each: visits
+      - say: Please check what you told us.
+      - each: parks
         flow:
-          - say: Visit {{index}} lasted {{bank.visit_minutes}} minutes.
+          - say: At park {{index}} you stay about {{bank.visit_minutes}} minutes.
