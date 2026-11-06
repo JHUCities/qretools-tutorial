@@ -25,13 +25,13 @@ flow:
       - ensure:
         severity: warning
         message: That's a large household. Is that right?
-  - ask: bank.park_visit_frequency
+  - ask: bank.park_visited
   - ask: bank.park_visit_days
     checks:
-      - name: agrees_with_frequency
-        ensure: not (bank.park_visit_frequency = "5" and bank.park_visit_days > 0)
+      - name: agrees_with_visiting
+        ensure: not (bank.park_visited = "2" and bank.park_visit_days > 0)
         severity: blocking
-        message: You said you never visit a park here. Please give 0 days, or change that answer.
+        message: You said you haven't visited a park here in the past month, so this should be 0.
       - ensure: not isnull(bank.park_visit_days)
         severity: info
         message: An answer helps us plan, but you can skip it.
