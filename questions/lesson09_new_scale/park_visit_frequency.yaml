@@ -1,29 +1,33 @@
 # ── Lesson 9 of 33: a new shared scale ──
 #
-# What this shows: if you name a scale that doesn't
-# exist yet, QREtools offers to make it.
+# If you write the name of a scale that does not exist,
+# QREtools offers to make the scale.
 #
 # To do:
-#   1. frequency5 is underlined: no shared scale has
-#      that name. In the Findings list, click "New
-#      shared scale frequency5". In the dialog, press
-#      Create.
-#   2. Its file opens with options "1" and "2", without
-#      labels. Label them, then add "3" to "5" below,
-#      indented the same:
-#        "1": Every day
-#        "2": Every week
-#        "3": Every month
-#        "4": Less often
+#   1. The name frequency5 is underlined, because no
+#      shared scale has that name. In the Findings list,
+#      click "New shared scale frequency5". Then press
+#      Create in the dialog.
+#   2. The file of the scale opens. It has the options
+#      "1" and "2", without labels. Write a label for
+#      each option. Then add the options "3" to "5"
+#      below them, with the same indentation:
+#        "1": Most days
+#        "2": At least once a week
+#        "3": At least once a month
+#        "4": Less than once a month
 #        "5": Never
-#   3. Come back here (the browser's Back button).
+#   3. Return to this file with the Back button of the
+#      browser.
 #
-# Done when: park_visit_frequency, and frequency5 under
-# Shared → Scales, have green ticks. Then save
-# park_visit_frequency. "with scale frequency5" beside
-# Save means the scale is saved too.
+# Done when: park_visit_frequency has a green tick, and
+# frequency5 under Shared → Scales has a green tick.
+# Then save park_visit_frequency. The words "with scale
+# frequency5" beside Save tell you that Save also saves
+# the scale.
 name: park_visit_frequency
 title: How often parks are visited
 text: How often do you visit a park in this neighborhood?
 intent: Estimates how often residents use local parks, from daily users to those who never go.
+concept: use_of_local_parks
 responses: frequency5

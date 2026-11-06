@@ -1,19 +1,24 @@
 # ── Lesson 10 of 33: a shared concept ──
 #
-# What this shows: a concept is the idea a question
-# measures. Questions that measure the same thing name
-# the same shared concept, so they can be found
-# together. Here the concept is written out in words,
-# not named, so there's a warning.
+# A concept is the idea that a question measures.
+# Questions that measure the same idea use the name of
+# the same shared concept. You can then find those
+# questions together. This question gives the concept in
+# words, and not as a name, so QREtools shows a warning.
 #
 # To do:
 #   1. In the Findings list, apply "Make it a shared
-#      concept use_of_local_parks". Confirm the name,
-#      and the label it suggests.
-#   2. The concept is now under Shared → Concepts. You
-#      can open it and add a  definition:  such as: How
-#      often, and for what, residents go to the parks
-#      near their home.
+#      concept use_of_local_parks". Confirm the name and
+#      the label.
+#   2. The concept is now under Shared → Concepts. Open
+#      the concept, and add a  definition: , such as:
+#      How often, and for what, residents go to the
+#      parks near their home.
+#   3. Three other questions measure the same idea:
+#      park_visited, park_visit_frequency and
+#      park_visit_days. Open each question, and give it
+#      the same concept. The inspector then tells you
+#      that four questions use the concept.
 #
 # Done when: park_use_weekly has a green tick.
 name: park_use_weekly

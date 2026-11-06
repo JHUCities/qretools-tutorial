@@ -1,18 +1,20 @@
 # ── Lesson 5 of 33: a free-text question ──
 #
-# What this shows: an open question takes answers in the
-# respondent's own words.
+# An open question takes the answer in the respondent's
+# own words.
 #
 # To do:
-#   1. On a new line at the end, type  op : completion
-#      offers  open  (if it doesn't appear, press Cmd-I
-#      on a Mac, Ctrl-Space elsewhere). Pick it.
-#   2. It writes  open:  and, on the next line,
-#      max_length: , with your cursor there. Type  500
-#      (the longest answer, in characters).
+#   1. Type  op  on a new line at the end of the file.
+#      Completion offers  open . If completion does not
+#      show, press Cmd-I on a Mac, or Ctrl-Space on
+#      other systems. Select  open .
+#   2. Completion writes  open:  and, on the next line,
+#        max_length: . The cursor moves to that line.
+#      Type  500 . max_length is the length of the
+#      longest answer, in characters.
 #
-# Completion works anywhere: it offers what fits where
-# your cursor is.
+# Completion works in all files. It offers the values
+# that are correct at the cursor.
 #
 # Done when: park_wishes has a green tick.
 name: park_wishes

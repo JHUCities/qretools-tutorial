@@ -1,20 +1,19 @@
 # ── Lesson 18 of 33: missing values ──
 #
-# What this shows: missing values. When there's no real
-# answer (the respondent refused, or didn't know), the
-# data records one of these codes instead. Every
-# question shares them, so you never list them in a
-# question. Any question's Codebook preview shows them
-# on its last line.
+# Missing values record the answers that are not real
+# answers. If the respondent refuses to answer, or does
+# not know the answer, the data records one of these
+# codes. Every question shares these codes, so you never
+# write them in a question. The last line of the
+# Codebook preview of each question shows them.
 #
 # To do:
-#   1. Label code "-9" below: write  Don't know  after
-#      its colon.
+#   1. Write  Don't know  after the code "-9" below.
 #   2. Then open Questions → lesson18_missing →
-#      park_rules and follow its comment.
+#      park_rules, and do the steps in its comment.
 #
-# Done when: the circle beside missing.yaml (under
-# Settings) is a green tick.
+# Done when: the circle beside missing.yaml, under
+# Settings, is a green tick.
 labels:
   "-8": Refused
   "-9": Don't know

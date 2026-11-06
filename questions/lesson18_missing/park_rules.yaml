@@ -1,18 +1,18 @@
-# Lesson 18, part 2 (part 1 is in Settings →
-# missing.yaml).
+# Lesson 18, part 2. Part 1 is in Settings →
+# missing.yaml.
 #
-# What this shows: a question shouldn't reuse a missing
-# value's code. This question uses "-9" for an answer,
-# but "-9" is the bank's missing value "Don't know", so
-# the data couldn't tell them apart. Once you've done
-# part 1, a warning says so.
+# A question must not use the code of a missing value.
+# This question uses "-9" for an answer, but "-9" is the
+# missing value "Don't know" in the bank. The data
+# cannot then show the difference between the two. A
+# warning tells you this after you do part 1.
 #
 # To do:
 #   1. Change the code "-9" below to "4".
 #
-# Done when: park_rules has a green tick. Its Codebook
-# preview lists the missing values on its last line.
-# Save it and missing.yaml.
+# Done when: park_rules has a green tick. The last line
+# of its Codebook preview shows the missing values. Save
+# this file and missing.yaml.
 name: park_rules
 title: Knowing the park rules
 text: How well do you know the rules for using the parks here?
@@ -20,5 +20,5 @@ intent: Measures awareness of park rules, to see whether better signs are needed
 responses:
   "1": Very well
   "2": Somewhat
-  "3": Not at all
-  "4": I didn't know there were rules
+  "3": Not very well
+  "4": Not at all

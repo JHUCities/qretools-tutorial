@@ -1,17 +1,21 @@
 # ── Lesson 31 of 33: checks ──
 #
-# What this shows: a check tests an answer as it's
-# given. Its severity says what happens when it fails:
-#   info      shows its message as a remark;
-#   warning   shows its message as a warning;
-#   blocking  they can't go on until it passes.
-# Two tests are used below: isnull(x) is true when x has
-# no answer; between(x, 0, 30) is true when x is from 0
-# to 30.
+# A check tests an answer when the respondent gives it.
+# The severity of the check gives the result of a
+# failure:
+#   info      shows the message as a remark;
+#   warning   shows the message as a warning;
+#   blocking  stops the respondent until the check
+#             passes.
+# A check can read more than one answer. A check that
+# reads two answers finds answers that disagree. min and
+# max keep a number in its range, so use a check for the
+# errors that min and max cannot find. The function
+# isnull(x) is true when x has no answer.
 #
 # To do:
-#   1. After the empty  ensure:  write
-#      bank.household_size < 10
+#   1. Write  bank.household_size < 10  after the empty
+#      ensure: .
 #
 # Done when: this instrument has a green tick.
 name: lesson31_checks
@@ -23,12 +27,13 @@ flow:
       - ensure: bank.household_size < 10
         severity: warning
         message: That's a large household. Is that right?
+  - ask: bank.park_visited
   - ask: bank.park_visit_days
     checks:
-      - name: plausible_days
-        ensure: between(bank.park_visit_days, 0, 30)
+      - name: agrees_with_visiting
+        ensure: not (bank.park_visited = "2" and bank.park_visit_days > 0)
         severity: blocking
-        message: Please give a number of days from 0 to 30.
+        message: You said you haven't visited a park here in the past month, so this should be 0.
       - ensure: not isnull(bank.park_visit_days)
         severity: info
         message: An answer helps us plan, but you can skip it.

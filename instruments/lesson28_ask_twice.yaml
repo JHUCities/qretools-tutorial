@@ -1,13 +1,17 @@
-# ── Lesson 28 of 33: asking a question twice ──
+# ── Lesson 28 of 33: a question that you ask twice ──
 #
-# What this shows: a question asked twice would store
-# two answers under one name. That's the red error
-# here, and it's expected. as gives the second answer a
-# name of its own.
+# A question that you ask twice stores two answers with
+# one name. That is the red error in this instrument,
+# and it is correct. The field  as  gives the second
+# answer a different name.
+#
+# If you ask one question before and after you tell the
+# respondent something, that is an experiment. You then
+# compare the two answers.
 #
 # To do:
-#   1. Under the second  - ask: bank.park_satisfaction ,
-#      lined up with "ask", add:
+#   1. Add this line below the second
+#      - ask: bank.park_satisfaction , in line with ask:
 #        as: park_satisfaction_after
 #
 # Done when: this instrument has a green tick.

@@ -1,12 +1,13 @@
 # ── Lesson 29 of 33: a roster ──
 #
-# What this shows: a roster asks the same questions once
-# for each of several things: here, each person in the
-# household. count says how many times. {{index}} is the
-# round's number (person 1, person 2…).
+# A roster asks the same questions one time for each of
+# several things. This roster asks about each person in
+# the household. count gives the quantity of times. The
+# value {{index}} is the number of the round, such as
+# person 1 or person 2.
 #
 # To do:
-#   1. After  count:  write  bank.household_size
+#   1. Write  bank.household_size  after  count: .
 #
 # Done when: this instrument has a green tick.
 name: lesson29_roster
