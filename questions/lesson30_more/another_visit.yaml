@@ -1,7 +1,7 @@
 # Already complete: lesson 30 asks it.
 name: another_visit
 title: Another park visit
-text: Did you make another visit to a park in this neighborhood in the past month?
-intent: Asks whether to record one more park visit, so each visit in the past month is described in turn.
+text: Did you make another visit to a park this week?
+intent: Asks whether to record one more park visit, so each visit this week is described in turn.
 universe: park_visitors
 responses: yes_no
