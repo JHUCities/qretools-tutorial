@@ -1,0 +1,19 @@
+# ── Lesson 3 of 35: the question text ──
+#
+# The respondent reads the text.
+#
+# To do:
+#   1. Write the question after  text: , such as: Do you
+#      feel safe in this neighborhood's parks during the
+#      day?
+#
+# Done when: park_safety has a green tick in the tree.
+name: park_safety
+title: Feeling safe in parks
+text:
+intent: Measures whether residents feel safe in local parks in daylight, to compare with how often they visit.
+responses: yes_no
+# Optional. Gives the source of the wording.
+source: Written for the QREtools tutorial
+# Optional. Gives codebook readers more information.
+note: Asked of everyone, visitors or not.

@@ -1,0 +1,17 @@
+# ── Lesson 12 of 35: the universe ──
+#
+# The universe of a question tells you who the question
+# is for. A universe can be shared and named, as a scale
+# can. Look at Shared → Universes in the tree.
+#
+# To do:
+#   1. Write  all_respondents  after  universe: , or
+#      select it with Cmd-I.
+#
+# Done when: park_nearby has a green tick.
+name: park_nearby
+title: A park within walking distance
+text: Is there a park within a ten-minute walk of your home?
+intent: Measures access to parks, to see whether distance explains how often residents visit.
+universe:
+responses: yes_no

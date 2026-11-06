@@ -1,0 +1,26 @@
+# ── Lesson 5 of 35: a number question ──
+#
+# Every question gives the way the respondent answers:
+# with options (responses), with a number, or with free
+# text (open). The respondent answers this question with
+# a number.
+#
+# To do:
+#   1. Add this line at the end of the file:
+#        number: { min: 1, max: 20 }
+#      min is the smallest answer. max is the largest
+#      answer.
+#
+# Keep max in this question. Lesson 31 asks about each
+# person in the household, and it must know the largest
+# possible number of persons.
+#
+# A number question can also have  decimals: . decimals
+# gives the quantity of decimal places that the answer
+# can have. A value of 0 permits whole numbers only.
+#
+# Done when: household_size has a green tick.
+name: household_size
+title: People in the household
+text: How many people live in your household, including you?
+intent: Counts household members, so later questions can be asked about each of them in turn.
