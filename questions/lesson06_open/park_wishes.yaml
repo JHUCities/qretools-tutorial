@@ -1,0 +1,24 @@
+# ── Lesson 6 of 35: a free-text question ──
+#
+# An open question takes the answer in the respondent's
+# own words.
+#
+# To do:
+#   1. Type  op  on a new line at the end of the file.
+#      Completion offers  open . If completion does not
+#      show, press Cmd-I on a Mac, or Ctrl-Space on
+#      other systems. Select  open .
+#   2. Completion writes  open:  and, on the next line,
+#        max_length: . The cursor moves to that line.
+#      Type  500 . max_length is the length of the
+#      longest answer, in characters.
+#
+# Completion works in all files. It offers the values
+# that are correct at the cursor.
+#
+# Done when: park_wishes has a green tick.
+name: park_wishes
+title: Wishes for the parks
+text: If you could change one thing about the parks here, what would it be?
+intent: Collects residents' own ideas for improving local parks, in their words, to guide planning.
+open: { max_length: 500 }

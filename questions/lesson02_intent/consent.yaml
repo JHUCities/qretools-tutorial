@@ -1,0 +1,30 @@
+# ── Lesson 2 of 35: a complete question ──
+#
+# This file is a complete question. It shows you the
+# parts of a question. Do not change this file. Read it,
+# then open the next file, park_visited, in the tree.
+#
+# A line that starts with # is a comment. QREtools
+# ignores comments. You can add, keep or delete them.
+#
+# The circle beside each file in the tree shows the
+# state of that file. A green tick means complete. A
+# dashed circle means you must fill in a field. The
+# other files with circles are later lessons. A red
+# circle on an instrument means that the instrument asks
+# a question that is not complete.
+
+# The name of the question. The data and other files use
+# this name. Use lowercase letters, digits and
+# underscores. Start with a letter.
+name: consent
+# A short label. Codebooks and lists show this label.
+title: Consent to the interview
+# The question text. The respondent reads this text.
+text: Do you agree to take part in this survey?
+# The reason for the question. Write what you want to
+# learn from it.
+intent: Records whether the respondent agrees to be interviewed, before anything else is asked.
+# How the respondent answers. This question uses the
+# shared scale yes_no. Lesson 8 shows shared scales.
+responses: yes_no

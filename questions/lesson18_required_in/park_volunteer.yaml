@@ -1,0 +1,22 @@
+# ── Lesson 18 of 35: a field that one folder makes
+# necessary ──
+#
+# One folder can make more fields necessary than the
+# other folders. Every question in this folder must have
+# a universe.
+#
+# To do:
+#   1. Open Settings → workspace.yaml. Delete the # at
+#      the start of the three lines below "Lesson 18".
+#   2. Return to this file. You must now fill in the
+#      universe. Add this line:
+#      universe: all_respondents
+#
+# Done when: park_volunteer has a green tick. Save this
+# file and workspace.yaml.
+name: park_volunteer
+title: Volunteering in parks
+text: Would you volunteer a few hours a year to help look after a park here?
+intent: Gauges residents' willingness to help maintain local parks, for planning volunteer days.
+universe: all_respondents
+responses: yes_no

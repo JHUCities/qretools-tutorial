@@ -1,0 +1,26 @@
+# ── Lesson 8 of 35: a shared scale ──
+#
+# Write the options that many questions use one time, as
+# a shared scale with a name. You used a shared scale in
+# lesson 2: yes_no. Look at Shared → Scales in the tree.
+# The scale agreement4 is there.
+#
+# To do:
+#   1. Write  agreement4  after  responses: .
+#      Completion offers the shared scales. Press Cmd-I.
+#
+# Then do these steps on the name agreement4:
+#   - Put the cursor on the name. The box below the
+#     editor is the inspector. The inspector tells you
+#     what the name is, and how many questions use it.
+#   - Cmd-click the name, or Ctrl-click it on other
+#     systems, or press F12. The file of the scale
+#     opens. Press the Back button of the browser to
+#     return.
+#
+# Done when: park_together has a green tick.
+name: park_together
+title: Parks bring people together
+text: The parks here are places where neighbors get to know each other.
+intent: Measures whether residents see local parks as places that build ties between neighbors.
+responses: agreement4

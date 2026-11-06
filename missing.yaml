@@ -1,4 +1,4 @@
-# ── Lesson 18 of 33: missing values ──
+# ── Lesson 19 of 35: missing values ──
 #
 # Missing values record the answers that are not real
 # answers. If the respondent refuses to answer, or does
@@ -9,7 +9,7 @@
 #
 # To do:
 #   1. Write  Don't know  after the code "-9" below.
-#   2. Then open Questions → lesson18_missing →
+#   2. Then open Questions → lesson19_missing →
 #      park_rules, and do the steps in its comment.
 #
 # Done when: the circle beside missing.yaml, under
