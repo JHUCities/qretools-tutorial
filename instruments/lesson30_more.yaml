@@ -6,9 +6,8 @@
 # so you ask after each round. each then goes back over
 # the rounds and can show their answers, to check them.
 #
-# max caps the rounds: here, someone who visited a
-# park every day of the month describes only five
-# visits.
+# max caps the rounds: here, someone who visited more
+# than five parks tells you about five.
 #
 # To do:
 #   1. After  more:  write  bank.another_park = "1"
