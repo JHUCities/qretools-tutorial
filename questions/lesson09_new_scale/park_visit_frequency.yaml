@@ -11,10 +11,10 @@
 #   2. Its file opens with options "1" and "2", without
 #      labels. Label them, then add "3" to "5" below,
 #      indented the same:
-#        "1": Every day
-#        "2": Every week
-#        "3": Every month
-#        "4": Less often
+#        "1": Most days
+#        "2": At least once a week
+#        "3": At least once a month
+#        "4": Less than once a month
 #        "5": Never
 #   3. Come back here (the browser's Back button).
 #
