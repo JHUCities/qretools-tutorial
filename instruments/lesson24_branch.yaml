@@ -5,7 +5,7 @@
 #
 # To do:
 #   1. After  if:  write  bank.park_visited = "1" (Yes).
-#   2. The blue note on  - ask: bank.park_safety  says
+#   2. The blue note on  - ask: bank.park_main_use  says
 #      not everyone reaches it, but it has no universe.
 #      Under that line, lined up with "ask", add:
 #        universe: bank.park_visitors
@@ -18,5 +18,5 @@ flow:
   - ask: bank.park_visited
   - if: bank.park_visited = "1"
     then:
-      - ask: bank.park_safety
+      - ask: bank.park_main_use
         universe: bank.park_visitors
