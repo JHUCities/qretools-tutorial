@@ -1,19 +1,23 @@
 # ── Lesson 4 of 33: a number question ──
 #
-# What this shows: every question says how it's
-# answered: with options (responses), a number, or free
-# text (open). This one takes a number.
+# Every question gives the way the respondent answers:
+# with options (responses), with a number, or with free
+# text (open). The respondent answers this question with
+# a number.
 #
 # To do:
-#   1. On a new line at the end, add:
+#   1. Add this line at the end of the file:
 #        number: { min: 1, max: 20 }
-#      min and max are the smallest and largest answers
-#      allowed.
-#      Keep max here: lesson 29 asks about each person
-#      in turn, and needs to know the most there can be.
-#      A number question can also have  decimals: , how
-#      many decimal places are allowed (0 means whole
-#      numbers only).
+#      min is the smallest answer. max is the largest
+#      answer.
+#
+# Keep max in this question. Lesson 29 asks about each
+# person in the household, and it must know the largest
+# possible number of persons.
+#
+# A number question can also have  decimals: . decimals
+# gives the quantity of decimal places that the answer
+# can have. A value of 0 permits whole numbers only.
 #
 # Done when: household_size has a green tick.
 name: household_size

@@ -1,18 +1,21 @@
 # ── Lesson 14 of 33: select all that apply ──
 #
-# What this shows: select: many lets the respondent tick
-# every option that applies. Each option here has a
-# label (what the respondent reads) and a short title.
-# In the data each option is a variable of its own, and
-# the title labels it (lesson 19).
+# The field  select: many  lets the respondent tick
+# every option that applies. Each option in this file
+# has a label and a short title. The respondent reads
+# the label. In the data, each option is a variable, and
+# the title is the label of that variable. Lesson 19
+# shows how the data stores the options.
 #
 # The warning asks for a "None of these" option. Without
-# it, someone who ticks nothing because nothing applies
-# looks the same as someone who skipped the question.
+# that option, the data cannot show the difference
+# between two respondents. One respondent ticks no
+# option, because no option applies. The other
+# respondent does not answer the question.
 #
 # To do:
-#   1. Add a fifth option at the end, lined up with the
-#      others:
+#   1. Add a fifth option at the end, with the same
+#      indentation as the other options:
 #        "5":
 #          label: None of these
 #          title: None

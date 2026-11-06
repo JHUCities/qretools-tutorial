@@ -1,30 +1,30 @@
 # ── Lesson 1 of 33: a complete question ──
 #
-# Welcome! This file is a finished question, to show you
-# its parts. Nothing to do here: read it, then open the
-# next file, park_visited, in the tree.
+# This file is a complete question. It shows you the
+# parts of a question. Do not change this file. Read it,
+# then open the next file, park_visited, in the tree.
 #
-# Lines starting with # are comments like this one.
-# QREtools ignores them, so they're safe to keep, add or
-# delete.
+# A line that starts with # is a comment. QREtools
+# ignores comments. You can add, keep or delete them.
 #
-# The circle beside each file in the tree says how it
-# stands: a green tick means complete, a dashed circle
-# means something to fill in. The other files with
-# circles are later lessons. A red circle on an
-# instrument means it asks a question you haven't
-# finished yet.
+# The circle beside each file in the tree shows the
+# state of that file. A green tick means complete. A
+# dashed circle means you must fill in a field. The
+# other files with circles are later lessons. A red
+# circle on an instrument means that the instrument asks
+# a question that is not complete.
 
-# Its name, used in the data and by other files:
-# lowercase letters, digits and underscores, starting
-# with a letter.
+# The name of the question. The data and other files use
+# this name. Use lowercase letters, digits and
+# underscores. Start with a letter.
 name: consent
-# A short label, for codebooks and lists.
+# A short label. Codebooks and lists show this label.
 title: Consent to the interview
-# The question exactly as the respondent reads it.
+# The question text. The respondent reads this text.
 text: Do you agree to take part in this survey?
-# Why it's asked: what you want to learn from it.
+# The reason for the question. Write what you want to
+# learn from it.
 intent: Records whether the respondent agrees to be interviewed, before anything else is asked.
-# How it's answered: here, by picking from the shared
-# Yes/No scale (lesson 7).
+# How the respondent answers. This question uses the
+# shared scale yes_no. Lesson 7 shows shared scales.
 responses: yes_no

@@ -1,19 +1,21 @@
 # ── Lesson 31 of 33: checks ──
 #
-# What this shows: a check tests an answer as it's
-# given. Its severity says what happens when it fails:
-#   info      shows its message as a remark;
-#   blocking  they can't go on until it passes;
-#   warning   shows its message as a warning.
-# A check can read more than one answer, which is what
-# catches answers that contradict each other. min and
-# max already keep a number in range, so a check is for
-# what they can't see. isnull(x) is true when x has no
-# answer.
+# A check tests an answer when the respondent gives it.
+# The severity of the check gives the result of a
+# failure:
+#   info      shows the message as a remark;
+#   warning   shows the message as a warning;
+#   blocking  stops the respondent until the check
+#             passes.
+# A check can read more than one answer. A check that
+# reads two answers finds answers that disagree. min and
+# max keep a number in its range, so use a check for the
+# errors that min and max cannot find. The function
+# isnull(x) is true when x has no answer.
 #
 # To do:
-#   1. After the empty  ensure:  write
-#      bank.household_size < 10
+#   1. Write  bank.household_size < 10  after the empty
+#      ensure: .
 #
 # Done when: this instrument has a green tick.
 name: lesson31_checks

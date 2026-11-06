@@ -1,14 +1,16 @@
 # ── Lesson 25 of 33: else, and else if ──
 #
-# What this shows: else says what happens otherwise. It
-# holds a list of steps (with dashes), or one more if
-# (no dash) to test something else, as below. in {…}
-# tests for any of several codes.
+# else gives the steps for all other conditions. An else
+# holds a list of steps, with dashes. An else can also
+# hold one more if, without a dash, to test a different
+# condition. This instrument has one more if. The
+# operator  in {…}  tests for more than one code.
 #
 # To do:
-#   1. After the second  if:  write
-#      bank.park_visit_frequency in {"3", "4"} (at least
-#      once a month, or less than once a month).
+#   1. Write this condition after the second  if: :
+#      bank.park_visit_frequency in {"3", "4"} . The
+#      code "3" is at least once a month. The code "4"
+#      is less than once a month.
 #
 # Done when: this instrument has a green tick.
 name: lesson25_else_if

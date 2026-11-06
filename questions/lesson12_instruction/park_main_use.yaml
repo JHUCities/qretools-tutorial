@@ -1,15 +1,16 @@
 # ── Lesson 12 of 33: an instruction ──
 #
-# What this shows: an instruction tells the respondent
-# how to answer. Instructions are shared too: look under
-# Shared → Instructions.
+# An instruction tells the respondent how to answer.
+# Instructions can also be shared. Look at Shared →
+# Instructions in the tree.
 #
 # To do:
-#   1. After  instruction:  write  select_one .
+#   1. Write  select_one  after  instruction: .
 #
-# An instruction is only words. Whether the respondent
-# picks one option or ticks several is set by
-# select: many  (lesson 14).
+# An instruction is words only. The field  select: many
+# controls whether the respondent picks one option or
+# ticks more than one option. Lesson 14 shows
+# select: many .
 #
 # Done when: park_main_use has a green tick.
 name: park_main_use

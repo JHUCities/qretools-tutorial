@@ -1,13 +1,15 @@
 # ── Lesson 24 of 33: if, then ──
 #
-# What this shows: if asks some questions only when a
-# condition is true.
+# if asks some questions only when a condition is true.
 #
 # To do:
-#   1. After  if:  write  bank.park_visited = "1" (Yes).
-#   2. The blue note on  - ask: bank.park_main_use  says
-#      not everyone reaches it, but it has no universe.
-#      Under that line, lined up with "ask", add:
+#   1. Write  bank.park_visited = "1"  after  if: . The
+#      code "1" is Yes.
+#   2. Look at the blue note on
+#      - ask: bank.park_main_use . Not all respondents
+#      get this question, but the question has no
+#      universe.
+#   3. Add this line below that line, in line with ask:
 #        universe: bank.park_visitors
 #
 # Done when: this instrument has a green tick.

@@ -1,15 +1,16 @@
 # ── Lesson 3 of 33: response options ──
 #
-# What this shows: a question's options. Each option
-# has a code (stored in the data) and a label (what the
-# respondent reads). Put codes in quotes, "1", so they
-# stay exactly as you wrote them.
+# A question can give the respondent options. Each
+# option has a code and a label. The data stores the
+# code. The respondent reads the label. Put each code in
+# quotation marks, "1", to keep the code exactly as you
+# write it.
 #
 # To do:
-#   1. Option "2" has no label: write  Fairly clean
+#   1. Option "2" has no label. Write  Fairly clean
 #      after its colon.
-#   2. Add a third option on a new line, indented two
-#      spaces like the others:
+#   2. Add a third option on a new line. Indent the line
+#      two spaces, as the other options are indented:
 #        "3": Not clean
 #
 # Done when: park_cleanliness has a green tick.
