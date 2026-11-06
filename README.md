@@ -44,7 +44,7 @@ To get a later version, change the version in `mise.toml`.
 
 **Part 1: the question bank** (Questions, in the tree)
 
-Lesson 1 is in Settings → `workspace.yaml`.
+Lesson 1 is in Settings → `workspace.yaml`: the agency, the code every question here is published under.
 
 | # | Folder | You learn |
 |---|---|---|

@@ -1,11 +1,29 @@
-# The settings of this workspace. Lessons 17, 18 and 35
-# use this file.
+# The settings of this workspace. Lessons 1, 17, 18 and
+# 35 use this file.
 
-# The DDI agency. The agency is the registered code of
-# the organization that keeps these questions. Every DDI
-# identifier includes the agency. Lesson 35 tells you
-# more. Do not change the agency now.
-agency: org.example
+# ── Lesson 1 of 35: the agency ──
+#
+# Every question here is published under one agency: the
+# code of the organization that keeps the questions. It
+# goes in front of every name QREtools writes, so your
+# park_safety is never confused with another
+# organization's question of the same name. The DDI
+# Alliance registers these codes, so you cannot make one
+# up, and you must not use another organization's.
+#
+# Until this line has a value, QREtools can write no
+# DDI. That is why every instrument in the tree shows a
+# red circle now.
+#
+# To do:
+#   1. Write the code of your organization after
+#      agency: , such as  edu.example . If you are only
+#      learning, write  org.example , the code this
+#      tutorial uses.
+#
+# Done when: the circle beside workspace.yaml, under
+# Settings, is a green tick.
+agency:
 
 # Lesson 17: the fields that every question must have,
 # in addition to name, text and intent. Delete the # at
