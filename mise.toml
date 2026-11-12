@@ -8,4 +8,4 @@ node = "26"
 # Lesson 1 needs 2.0.0-alpha.5: before it, an empty `agency:` line was
 # reported as a missing one, so the lesson told you to add the line it
 # was pointing at.
-"npm:qretools" = { version = "2.0.0-alpha.5", allow_low_downloads = true }
+"npm:qretools" = { version = "2.0.0-alpha.9", allow_low_downloads = true }
