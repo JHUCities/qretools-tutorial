@@ -1,4 +1,4 @@
-# ── Lesson 6 of 35: a free-text question ──
+# ── Lesson 6 of 36: a free-text question ──
 #
 # An open question takes the answer in the respondent's
 # own words.
@@ -21,3 +21,4 @@ name: park_wishes
 title: Wishes for the parks
 text: If you could change one thing about the parks here, what would it be?
 intent: Collects residents' own ideas for improving local parks, in their words, to guide planning.
+access: public

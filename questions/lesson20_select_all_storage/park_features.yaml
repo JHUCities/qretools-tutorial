@@ -6,6 +6,7 @@ name: park_features
 title: Park features used
 text: Which of these park features have you used this year?
 intent: Describes which park facilities residents use, to decide where to spend on upkeep.
+access: public
 instruction: select_all
 select: many
 responses:

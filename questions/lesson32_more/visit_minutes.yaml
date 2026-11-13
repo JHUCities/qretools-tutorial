@@ -3,6 +3,7 @@ name: visit_minutes
 title: Length of a typical visit
 text: On a typical visit to this park, how long do you stay?
 intent: Records how long a typical visit to one park lasts, to estimate the time residents spend in parks.
+access: public
 universe: park_visitors
 number:
   min: 1

@@ -1,4 +1,4 @@
-# ── Lesson 13 of 35: an instruction ──
+# ── Lesson 13 of 36: an instruction ──
 #
 # An instruction tells the respondent how to answer.
 # Instructions can also be shared. Look at Shared →
@@ -17,6 +17,7 @@ name: park_main_use
 title: Main use of the park
 text: What do you mostly do when you visit a park here?
 intent: Describes what residents mainly use local parks for, to match facilities to their uses.
+access: public
 responses:
   "1": Walk or run
   "2": Play a sport

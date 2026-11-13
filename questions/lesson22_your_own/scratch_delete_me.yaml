@@ -1,4 +1,4 @@
-# ── Lesson 22 of 35: your own question ──
+# ── Lesson 22 of 36: your own question ──
 #
 # Write a question from the start, save it in a folder,
 # and delete a question.
@@ -7,8 +7,9 @@
 #   1. Press New → Blank question. Write your own
 #      question about parks. Give it a name, a title,
 #      the text, the intent, and a way to answer.
-#      Lesson 17 made the title necessary. Fill in every
-#      dashed circle.
+#      Lesson 17 made the title necessary. Also write
+#      access: public . Lesson 36 tells you why. Fill
+#      in every dashed circle.
 #   2. Press Save, and select the folder
 #      lesson22_your_own.
 #   3. Return to this file. Press Delete at the top, and
@@ -22,4 +23,5 @@ name: scratch_delete_me
 title: A question to delete
 text: Is this question here to be deleted?
 intent: Exists only so the tutorial can show how to delete a question from the bank.
+access: public
 responses: yes_no
