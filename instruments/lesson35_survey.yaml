@@ -1,7 +1,7 @@
-# ── Lesson 35 of 35: the full survey ──
+# ── Lesson 35 of 36: the full survey ──
 #
-# The last lesson. This instrument is a full survey. It
-# uses what you learned.
+# This instrument is a full survey. It uses what you
+# learned.
 #
 # To do:
 #   1. Fill in the two dashed circles: the condition of
@@ -17,11 +17,8 @@
 #      starts with the agency you set in lesson 1. In
 #      your own workspace, use your organization's code.
 #
-# Done when: this instrument has a green tick. The
-# tutorial is then complete. Your work is on your own
-# branch. To put your work in the bank, open a pull
-# request. Use the pull-request icon beside the name of
-# your branch ("Propose changes").
+# Done when: this instrument has a green tick. Then go
+# to lesson 36, the last lesson.
 name: lesson35_survey
 title: Neighborhood parks
 description: How residents use, judge and would improve the parks in their neighborhood.

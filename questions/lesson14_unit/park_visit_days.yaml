@@ -1,4 +1,4 @@
-# ── Lesson 14 of 35: a unit ──
+# ── Lesson 14 of 36: a unit ──
 #
 # A number can have a unit. Units are shared. Look at
 # Shared → Units in the tree. No unit has the name
@@ -14,6 +14,7 @@ name: park_visit_days
 title: Days visiting a park
 text: In the past 30 days, on how many days did you visit a park in this neighborhood?
 intent: Estimates how many days a month residents use parks, a finer measure than whether they go.
+access: public
 number:
   min: 0
   max: 30

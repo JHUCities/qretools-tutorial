@@ -1,4 +1,4 @@
-# ── Lesson 2 of 35: a complete question ──
+# ── Lesson 2 of 36: a complete question ──
 #
 # This file is a complete question. It shows you the
 # parts of a question. Do not change this file. Read it,
@@ -25,6 +25,9 @@ text: Do you agree to take part in this survey?
 # The reason for the question. Write what you want to
 # learn from it.
 intent: Records whether the respondent agrees to be interviewed, before anything else is asked.
+# Who may see the answers. Lesson 36 shows access
+# levels.
+access: public
 # How the respondent answers. This question uses the
 # shared scale yes_no. Lesson 8 shows shared scales.
 responses: yes_no

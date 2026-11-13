@@ -3,6 +3,7 @@ name: member_age
 title: Age of a household member
 text: How old is this person?
 intent: Records each household member's age, asked once for every person in the household.
+access: public
 universe: household_members
 number:
   min: 0

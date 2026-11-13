@@ -1,8 +1,9 @@
 # The QREtools tutorial
 
-Learn QREtools with 35 short lessons. Each lesson is a file with one or two gaps to
+Learn QREtools with 36 short lessons. Each lesson is a file with one or two gaps to
 fill in. Part 1 makes a small bank of questions about the parks of a neighborhood.
-Part 2 makes a survey that asks those questions.
+Part 2 makes a survey that asks those questions. Part 3 tells who may see the
+answers.
 
 All the lessons work in the same way. Open the file of the lesson, read the comment at
 the top, and do the steps. When you finish the steps, the dashed circle beside the file
@@ -88,6 +89,12 @@ Lesson 1 is in Settings → `workspace.yaml`: the agency, the code every questio
 | 34 | `lesson34_order` | order, timing and inputs |
 | 35 | `lesson35_survey` | the whole survey; DDI and Qualtrics downloads |
 
+**Part 3: access levels** (Questions and Settings, in the tree)
+
+| # | Folder | You learn |
+|---|---|---|
+| 36 | `lesson36_access` | access levels: who may see the answers to a question |
+
 ## Not in the tutorial
 
 - **Questions from a different repository.** An instrument can ask the questions of a
@@ -95,6 +102,13 @@ Lesson 1 is in Settings → `workspace.yaml`: the agency, the code every questio
   a branch. The [workspace template](https://github.com/JHUCities/qretools-template)
   tells you how to do this, and how QREtools numbers the DDI version of a question.
 - **`legacy`.** A field that brings in an older bank.
+- **Access levels of questions from a different repository.** If an instrument asks
+  the questions of a different workspace, its own workspace must list the access
+  levels of those questions, in the same order.
+- **Collected data.** `qretools dataset export --access <level>` writes a view of the
+  answers without the variables above that level. The
+  [command's README](https://github.com/JHUCities/qretools/tree/main/packages/cli#readme)
+  tells you how.
 
 What QREtools is: [About QREtools](https://github.com/JHUCities/qretools#readme).
 

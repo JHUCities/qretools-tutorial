@@ -1,4 +1,4 @@
-# ── Lesson 10 of 35: a new shared scale ──
+# ── Lesson 10 of 36: a new shared scale ──
 #
 # If you write the name of a scale that does not exist,
 # QREtools offers to make the scale.
@@ -29,5 +29,6 @@ name: park_visit_frequency
 title: How often parks are visited
 text: How often do you visit a park in this neighborhood?
 intent: Estimates how often residents use local parks, from daily users to those who never go.
+access: public
 concept: use_of_local_parks
 responses: frequency5
