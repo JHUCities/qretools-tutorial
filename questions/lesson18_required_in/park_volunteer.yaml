@@ -1,4 +1,4 @@
-# ── Lesson 18 of 35: a field that one folder makes
+# ── Lesson 18 of 36: a field that one folder makes
 # necessary ──
 #
 # One folder can make more fields necessary than the
@@ -18,5 +18,6 @@ name: park_volunteer
 title: Volunteering in parks
 text: Would you volunteer a few hours a year to help look after a park here?
 intent: Gauges residents' willingness to help maintain local parks, for planning volunteer days.
+access: public
 universe: all_respondents
 responses: yes_no

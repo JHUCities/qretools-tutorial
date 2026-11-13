@@ -4,4 +4,5 @@ name: park_shade
 title: Enough shade in parks
 text: Is there enough shade in the parks here on hot days?
 intent: Measures whether residents find enough shade in local parks, to guide where to plant trees.
+access: public
 responses: yes_no

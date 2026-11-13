@@ -1,4 +1,4 @@
-# ── Lesson 21 of 35: duplicates and variants ──
+# ── Lesson 21 of 36: duplicates and variants ──
 #
 # QREtools looks for repeats in the whole bank. This
 # question and park_spending_reversed have the same
@@ -16,4 +16,5 @@ name: park_spending
 title: More spending on parks
 text: The city should spend more on parks, even if other services get less.
 intent: Measures support for spending on parks traded against other services, in the scale's usual order.
+access: public
 responses: agreement4

@@ -1,4 +1,4 @@
-# ── Lesson 8 of 35: a shared scale ──
+# ── Lesson 8 of 36: a shared scale ──
 #
 # Write the options that many questions use one time, as
 # a shared scale with a name. You used a shared scale in
@@ -23,4 +23,5 @@ name: park_together
 title: Parks bring people together
 text: The parks here are places where neighbors get to know each other.
 intent: Measures whether residents see local parks as places that build ties between neighbors.
+access: public
 responses: agreement4

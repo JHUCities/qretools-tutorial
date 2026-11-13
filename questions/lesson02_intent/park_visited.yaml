@@ -1,4 +1,4 @@
-# ── Lesson 2 of 35: the intent ──
+# ── Lesson 2 of 36: the intent ──
 #
 # Every question gives the reason you ask it. The reason
 # is the intent. The person who analyzes the data reads
@@ -29,4 +29,5 @@ name: park_visited
 title: Visited a park recently
 text: In the past month, have you visited a park in this neighborhood?
 intent: Estimates how many residents used a park in this neighborhood in the past month.
+access: public
 responses: yes_no

@@ -1,4 +1,4 @@
-# ── Lesson 12 of 35: the universe ──
+# ── Lesson 12 of 36: the universe ──
 #
 # The universe of a question tells you who the question
 # is for. A universe can be shared and named, as a scale
@@ -13,5 +13,6 @@ name: park_nearby
 title: A park within walking distance
 text: Is there a park within a ten-minute walk of your home?
 intent: Measures access to parks, to see whether distance explains how often residents visit.
+access: public
 universe: all_respondents
 responses: yes_no

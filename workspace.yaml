@@ -1,7 +1,7 @@
-# The settings of this workspace. Lessons 1, 17, 18 and
-# 35 use this file.
+# The settings of this workspace. Lessons 1, 17, 18,
+# 35 and 36 use this file.
 
-# ── Lesson 1 of 35: the agency ──
+# ── Lesson 1 of 36: the agency ──
 #
 # Every question here is published under one agency: the
 # code of the organization that keeps the questions. It
@@ -38,3 +38,9 @@ required:
 required_in:
   questions/lesson18_required_in:
     - universe
+
+# Lesson 36: the access levels, from the most open to
+# the most closed. Every question names one of them.
+access:
+  - public
+  - restricted

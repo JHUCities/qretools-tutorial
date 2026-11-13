@@ -1,4 +1,4 @@
-# ── Lesson 17 of 35: a required field ──
+# ── Lesson 17 of 36: a required field ──
 #
 # A workspace can make more fields necessary in every
 # question. Every question in this tutorial has a title,
@@ -23,4 +23,5 @@ name: park_events
 title: Park events attended
 text: Have you been to an event in a park here this year?
 intent: Measures participation in organized park events, such as concerts or clean-ups.
+access: public
 responses: yes_no
