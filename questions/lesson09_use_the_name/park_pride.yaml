@@ -1,4 +1,4 @@
-# ── Lesson 9 of 35: a warning and a quick fix ──
+# ── Lesson 9 of 36: a warning and a quick fix ──
 #
 # A warning is orange. A warning is stronger advice than
 # a note. The options in this file are the options of
@@ -22,6 +22,7 @@ name: park_pride
 title: Pride in the parks
 text: I'm proud of the parks in my neighborhood.
 intent: Measures residents' attachment to local parks, as a sign of how they value them.
+access: public
 responses:
   "1": Strongly agree
   "2": Somewhat agree

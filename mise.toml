@@ -8,4 +8,6 @@ node = "26"
 # Lesson 1 needs 2.0.0-alpha.5: before it, an empty `agency:` line was
 # reported as a missing one, so the lesson told you to add the line it
 # was pointing at.
+# Lesson 36 needs 2.0.0-alpha.11: from it, a workspace that lists access
+# levels needs an access line in every question.
 "npm:qretools" = { version = "2.0.0-alpha.12", allow_low_downloads = true }

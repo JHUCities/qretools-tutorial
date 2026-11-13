@@ -1,0 +1,43 @@
+# ── Lesson 36 of 36: access levels ──
+#
+# Some answers can identify a respondent, such as the
+# street of the home. Some persons who analyze the data
+# must not see these answers. An access level tells who
+# can see the answers to a question.
+#
+# The workspace lists its access levels in
+# workspace.yaml, from the most open to the most closed.
+# Each question names one of these levels. Until now,
+# the list had one level, public, and each question in
+# this tutorial was public. If a workspace lists levels,
+# every question must have an access line.
+#
+# To do:
+#   1. Write  restricted  after  access: . The dashed
+#      circle becomes a red circle. This is an error,
+#      because restricted is not a level in this
+#      workspace yet.
+#   2. Open Settings → workspace.yaml in the tree. Add
+#      the line   - restricted  after the line
+#        - public . Keep this order: the most open level
+#      first. QREtools cannot find a wrong order, so
+#      examine the order yourself.
+#
+# If the list has a level that no question names,
+# workspace.yaml shows a warning.
+#
+# Done when: home_street has a green tick, and the
+# Access line of its Codebook preview shows restricted.
+# Save this file and workspace.yaml.
+#
+# The tutorial is then complete. Your work is on your
+# own branch. To put your work in the bank, open a pull
+# request. Use the pull-request icon beside the name of
+# your branch ("Propose changes").
+name: home_street
+title: Street of the home
+text: What is the name of the street that you live on?
+intent: Links each answer to the nearest park, to measure how the distance to a park changes its use.
+access:
+open:
+  max_length: 80

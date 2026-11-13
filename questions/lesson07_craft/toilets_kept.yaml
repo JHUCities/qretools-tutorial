@@ -1,4 +1,4 @@
-# ── Lesson 7 of 35: advice on wording ──
+# ── Lesson 7 of 36: advice on wording ──
 #
 # QREtools also gives advice. The Findings list shows
 # advice as a blue note with an i. A note does not stop
@@ -21,4 +21,5 @@ name: toilets_kept
 title: Park toilets well kept
 text: Are the toilets and playgrounds in this neighborhood's parks well kept?
 intent: Measures whether residents find the parks' toilets well maintained, one facility at a time.
+access: public
 responses: yes_no

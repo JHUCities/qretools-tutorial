@@ -1,4 +1,4 @@
-# ── Lesson 16 of 35: a fill ──
+# ── Lesson 16 of 36: a fill ──
 #
 # A fill puts words from an earlier answer into the
 # text. Write a fill in double braces: {{rating}}. The
@@ -20,4 +20,5 @@ name: park_comments
 title: Comments on the parks
 text: 'You said you were "{{rating}}" with the parks. What makes you feel that way?'
 intent: Collects the reasons behind each resident's satisfaction rating, in their own words.
+access: public
 open: { max_length: 500 }

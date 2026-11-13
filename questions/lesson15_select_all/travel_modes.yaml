@@ -1,4 +1,4 @@
-# ── Lesson 15 of 35: select all that apply ──
+# ── Lesson 15 of 36: select all that apply ──
 #
 # The field  select: many  lets the respondent tick
 # every option that applies. Each option in this file
@@ -25,6 +25,7 @@ name: travel_modes
 title: Ways of getting to the park
 text: How do you get to a park here?
 intent: Describes how residents reach local parks, to plan paths, cycle racks and bus stops.
+access: public
 instruction: select_all
 select: many
 responses:

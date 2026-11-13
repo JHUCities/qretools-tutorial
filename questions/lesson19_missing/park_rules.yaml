@@ -17,6 +17,7 @@ name: park_rules
 title: Knowing the park rules
 text: How well do you know the rules for using the parks here?
 intent: Measures awareness of park rules, to see whether better signs are needed.
+access: public
 responses:
   "1": Very well
   "2": Somewhat
